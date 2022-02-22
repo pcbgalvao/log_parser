@@ -1,6 +1,5 @@
 const Fs = require('fs');
 // const Regex = require('regex');
-const { exit } = require('process');
 
 function syntaxHelp(msg) {
     console.log("Syntax: log_parse <string> <logfile>");
@@ -12,8 +11,7 @@ function main(argv) {
     // Taking string to parse and log file from command line args
     var stringToParse = argv[2]
     var logFile = argv[3]
-
-    console.log(argv[2], "--help", argv[2] === "--help");
+    
     // Syntax Help
     if (argv[2] === "--help" || argv[2] === "/h") {
 
