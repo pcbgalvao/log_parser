@@ -1,6 +1,6 @@
 {
   "name": "log_parser",
-  "version": "0.0.1",
+  "version": "0.5.0",
   "description": "Commnad Line Log Parser",
   "main": "app/log_parser.js",  
   "scripts": {    

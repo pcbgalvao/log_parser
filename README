@@ -1,0 +1,26 @@
+# Requisits #
+- node version 17.5.0
+
+# version 0.0.1 #
+-- pkg Package
+This command line interface enables you to package your Node.js project into an executable that can be run even on devices without Node.js installed.
+https://github.com/vercel/pkg
+
+# version 0.5.0 #
+
+- Solution implemented with asynchronous fs.readFile
+
+# version 1.0.0 #
+
+- Changed to `readLine` to support big log files:
+
+    `let rl = readLine.createInterface({`
+    `    input: Fs.createReadStream(logFile),`
+    `    (...)`
+    
+
+# TODOs #
+
+[x] Implement a asynchronous line by line read file;
+[] Write some jasmine tests
+[] Uplaod to github
