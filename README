@@ -1,5 +1,28 @@
-# Requisits #
-- node version 17.5.0
+# Syntax #
+
+`./log_parser.sh <string_to_parse> <logfile>`
+
+# Examples #
+
+`$ ./log_parser.sh 'GET / HTTP/1.1\" 200 3477' logfiles/access.log `
+`Matches Found for string "GET / HTTP/1.1\" 200 3477" : 4`
+
+`./log_parser.sh "Unit succeeded" logfiles/journalctl.log `
+`Matches Found for string "Unit succeeded" : 36`
+
+`/log_parser.sh "Unit succeeded" logfiles/emptyLogfile.log `
+`Matches Found for string "Unit succeeded" : 0`
+
+`./log_parser.sh 123 logfiles/logfile_example1.log`
+
+
+# Dependecies #
+
+`const Fs = require('fs');`
+`const readLine = require('readline');`
+
+# Requisites #
+- Since is plain javascript and only two dependencies, although without exhaustive testing, may be run in several node versions.
 
 # version 0.0.1 #
 -- pkg Package
@@ -18,9 +41,10 @@ https://github.com/vercel/pkg
     `    input: Fs.createReadStream(logFile),`
     `    (...)`
     
-
+# version 1.0.1 #
+- Ready to ship
 # TODOs #
 
-[x] Implement a asynchronous line by line read file;
+[x] Implement a asynchronous line by line read file operation;
 [] Write some jasmine tests
-[] Uplaod to github
+[x] Uplaod to github

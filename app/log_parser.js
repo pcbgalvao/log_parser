@@ -35,7 +35,7 @@ function main(argv) {
 
     // test for correct number of args
     if (argv.length !== 4) {
-        console.log("Warning: Either no string to parse, logfile or both has been provided!");
+        console.log("Warning: please check the syntax");
         syntaxHelp();
         process.exit(1);
     }
@@ -56,6 +56,7 @@ function main(argv) {
     }
     let rl = readLine.createInterface(logFileInterface);
 
+    // processes "Line" event on logfile ReadStream Interfrace
     let matchesFound = 0;
     rl.on('line', function parseLine(lineText) {
 
@@ -64,9 +65,17 @@ function main(argv) {
 
     });
 
+    // processes "close" event on logfile ReadStream Interface
     rl.on('close', function closeInterface() {
         // prints the result 
         console.log(`Matches Found for string "${stringToParse}" : ${matchesFound}`)
+
+    });
+
+    // processes "error" event on logfile ReadStream Interface
+    rl.on('error', function errorInterface(error) {
+        // prints the result 
+        console.log(`Error: "${error}"`)
 
     });
 }
@@ -75,3 +84,6 @@ function main(argv) {
 main(process.argv);
 
 
+//module.exports(
+//     ()=>main()
+//);

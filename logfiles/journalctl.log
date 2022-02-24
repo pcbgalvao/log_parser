@@ -1,0 +1,1825 @@
+-- Logs begin at Mon 2021-01-11 13:08:09 WET, end at Wed 2022-02-23 20:35:28 WET. --
+fev 23 16:33:27 LabBecoPaus whoopsie[1317]: [16:33:27] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 16:33:27 LabBecoPaus whoopsie[1317]: [16:33:27] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 16:33:27 LabBecoPaus whoopsie[1317]: [16:33:27] online
+fev 23 16:33:28 LabBecoPaus whoopsie[1317]: [16:33:28] Parsing /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 16:33:28 LabBecoPaus whoopsie[1317]: [16:33:28] Uploading /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 16:33:33 LabBecoPaus whoopsie[1317]: [16:33:33] Sent; server replied with: SSL peer certificate or SSH remote key was not OK
+fev 23 16:33:33 LabBecoPaus whoopsie[1317]: [16:33:33] Response code: 0
+fev 23 16:33:37 LabBecoPaus systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+fev 23 16:34:56 LabBecoPaus systemd[2291]: Started Application launched by gnome-shell.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 2338.
+fev 23 16:35:00 LabBecoPaus zeitgeist-datah[3069]: zeitgeist-datahub.vala:210: Error during inserting events: GDBus.Error:org.gnome.zeitgeist.EngineError.InvalidArgument: Incomplete event: interpretation, manifestation and actor are required
+fev 23 16:35:01 LabBecoPaus CRON[1020142]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 16:35:01 LabBecoPaus CRON[1020143]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 16:35:01 LabBecoPaus CRON[1020142]: pam_unix(cron:session): session closed for user root
+fev 23 16:35:05 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.2517' (uid=1000 pid=1020102 comm="/opt/google/chrome/chrome --enable-crashpad " label="unconfined")
+fev 23 16:35:05 LabBecoPaus systemd[1]: Started Run anacron jobs.
+-- Subject: A start job for unit anacron.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit anacron.service has finished successfully.
+-- 
+-- The job identifier is 248545.
+fev 23 16:35:06 LabBecoPaus anacron[1020157]: Anacron 2.3 started on 2022-02-23
+fev 23 16:35:05 LabBecoPaus systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Subject: A start job for unit bluetooth.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit bluetooth.service has finished successfully.
+-- 
+-- The job identifier is 248443.
+fev 23 16:35:06 LabBecoPaus anacron[1020157]: Normal exit (0 jobs run)
+fev 23 16:35:06 LabBecoPaus systemd[1]: anacron.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit anacron.service has successfully entered the 'dead' state.
+fev 23 16:35:16 LabBecoPaus gnome-keyring-daemon[2338]: asked to register item /org/freedesktop/secrets/collection/Default_5fkeyring/1, but it's already registered
+fev 23 16:35:16 LabBecoPaus gnome-keyring-daemon[2338]: asked to register item /org/freedesktop/secrets/collection/Default_5fkeyring/1, but it's already registered
+fev 23 16:35:16 LabBecoPaus gnome-shell[1020110]: [1020102:1020150:0223/163516.658769:ERROR:token_service_table.cc(139)] Failed to decrypt token for service AccountId-101815007318999022346
+fev 23 16:35:21 LabBecoPaus gnome-shell[1020110]: [0223/163521.792164:WARNING:exception_snapshot_linux.cc(427)] Unhandled signal -1
+fev 23 16:35:21 LabBecoPaus gnome-shell[1020110]: [1020102:1020102:0223/163521.931819:ERROR:gpu_process_host.cc(956)] GPU process exited unexpectedly: exit_code=512
+fev 23 16:35:23 LabBecoPaus gnome-shell[1020110]: [1020102:1020206:0223/163523.643592:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+fev 23 16:35:23 LabBecoPaus gnome-shell[1020110]: [1020102:1020206:0223/163523.643615:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+fev 23 16:35:23 LabBecoPaus gnome-shell[1020110]: [1020102:1020206:0223/163523.643628:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+fev 23 16:35:24 LabBecoPaus gnome-shell[1020110]: [1020428:1020428:0223/163524.604358:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+fev 23 16:35:26 LabBecoPaus gnome-shell[1020110]: [1020461:1020461:0223/163526.730532:ERROR:gpu_init.cc(453)] Passthrough is not supported, GL is swiftshader, ANGLE is
+fev 23 16:35:27 LabBecoPaus gnome-shell[1020110]: [1020215:7:0223/163527.612320:ERROR:command_buffer_proxy_impl.cc(125)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
+fev 23 16:35:27 LabBecoPaus gnome-shell[1020110]: [1020102:1020206:0223/163527.763141:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+fev 23 16:35:30 LabBecoPaus dbus-daemon[1032]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+fev 23 16:35:43 LabBecoPaus gnome-shell[1020110]: [1020102:1020102:0223/163543.419513:ERROR:password_sync_bridge.cc(439)] Passwords datatype error was encountered: Failed to load entries from password store. Encryption service failure.
+fev 23 16:37:16 LabBecoPaus kernel: [UFW BLOCK] IN=eth2 OUT= MAC=20:cf:30:23:c1:cf:34:2c:c4:a8:ec:c9:08:00 SRC=37.252.173.38 DST=192.168.0.12 LEN=40 TOS=0x00 PREC=0x00 TTL=47 ID=0 DF PROTO=TCP SPT=443 DPT=44422 WINDOW=0 RES=0x00 RST URGP=0 
+fev 23 16:38:45 LabBecoPaus NetworkManager[1033]: <info>  [1645634325.8505] manager: NetworkManager state is now CONNECTED_SITE
+fev 23 16:38:50 LabBecoPaus whoopsie[1317]: [16:38:45] offline
+fev 23 16:38:50 LabBecoPaus whoopsie[1317]: [16:38:46] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 16:38:50 LabBecoPaus whoopsie[1317]: [16:38:46] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 16:38:50 LabBecoPaus whoopsie[1317]: [16:38:46] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 16:38:50 LabBecoPaus whoopsie[1317]: [16:38:48] online
+fev 23 16:38:50 LabBecoPaus whoopsie[1317]: [16:38:48] Parsing /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 16:38:46 LabBecoPaus NetworkManager[1033]: <info>  [1645634326.7067] manager: NetworkManager state is now CONNECTED_GLOBAL
+fev 23 16:38:46 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=1033 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+fev 23 16:38:51 LabBecoPaus whoopsie[1317]: [16:38:50] Uploading /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 16:38:48 LabBecoPaus systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has begun execution.
+-- 
+-- The job identifier is 248646.
+fev 23 16:38:52 LabBecoPaus dbus-daemon[1032]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+fev 23 16:38:52 LabBecoPaus systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has finished successfully.
+-- 
+-- The job identifier is 248646.
+fev 23 16:38:55 LabBecoPaus kernel: [UFW BLOCK] IN=eth2 OUT= MAC=20:cf:30:23:c1:cf:34:2c:c4:a8:ec:c9:08:00 SRC=52.28.89.202 DST=192.168.0.12 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=0 DF PROTO=TCP SPT=443 DPT=54672 WINDOW=0 RES=0x00 RST URGP=0 
+fev 23 16:38:55 LabBecoPaus kernel: [UFW BLOCK] IN=eth2 OUT= MAC=20:cf:30:23:c1:cf:34:2c:c4:a8:ec:c9:08:00 SRC=52.28.89.202 DST=192.168.0.12 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=0 DF PROTO=TCP SPT=443 DPT=54672 WINDOW=0 RES=0x00 RST URGP=0 
+fev 23 16:38:55 LabBecoPaus kernel: [UFW BLOCK] IN=eth2 OUT= MAC=20:cf:30:23:c1:cf:34:2c:c4:a8:ec:c9:08:00 SRC=52.28.89.202 DST=192.168.0.12 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=0 DF PROTO=TCP SPT=443 DPT=54672 WINDOW=0 RES=0x00 RST URGP=0 
+fev 23 16:38:56 LabBecoPaus whoopsie[1317]: [16:38:56] Sent; server replied with: SSL peer certificate or SSH remote key was not OK
+fev 23 16:38:56 LabBecoPaus whoopsie[1317]: [16:38:56] Response code: 0
+fev 23 16:39:02 LabBecoPaus systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+fev 23 16:43:16 LabBecoPaus gnome-shell[2684]: Window manager warning: last_focus_time (1193131060) is greater than comparison timestamp (1193129637).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+fev 23 16:43:25 LabBecoPaus gnome-shell[2684]: Window manager warning: last_focus_time (1193138966) is greater than comparison timestamp (1193138866).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+fev 23 16:44:13 LabBecoPaus su[844718]: pam_unix(su-l:session): session closed for user root
+fev 23 16:44:14 LabBecoPaus sudo[844708]: pam_unix(sudo:session): session closed for user root
+fev 23 16:44:21 LabBecoPaus sudo[1021928]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 16:44:27 LabBecoPaus sudo[1021928]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 16:44:27 LabBecoPaus sudo[1021928]: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/2 ruser=pgalvao rhost=  user=pgalvao
+fev 23 16:44:29 LabBecoPaus sudo[1021928]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 16:44:33 LabBecoPaus sudo[1021928]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 16:44:36 LabBecoPaus sudo[1021928]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 16:44:41 LabBecoPaus sudo[1021928]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 16:44:41 LabBecoPaus sudo[1021928]:  pgalvao : TTY=pts/2 ; PWD=/home/pgalvao/.local/share/Trash/files ; USER=root ; COMMAND=/usr/bin/apt install apache2
+fev 23 16:44:41 LabBecoPaus sudo[1021928]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 16:45:04 LabBecoPaus CRON[1022009]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 16:45:04 LabBecoPaus CRON[1022012]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 16:45:04 LabBecoPaus CRON[1022009]: pam_unix(cron:session): session closed for user root
+fev 23 16:45:46 LabBecoPaus systemd[1]: Reloading.
+fev 23 16:45:51 LabBecoPaus systemd[1]: Starting Process error reports when automatic reporting is enabled...
+-- Subject: A start job for unit apport-autoreport.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apport-autoreport.service has begun execution.
+-- 
+-- The job identifier is 248850.
+fev 23 16:45:51 LabBecoPaus systemd[1]: Starting Message of the Day...
+-- Subject: A start job for unit motd-news.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit motd-news.service has begun execution.
+-- 
+-- The job identifier is 248960.
+fev 23 16:45:51 LabBecoPaus systemd[1]: Reloading.
+fev 23 16:45:52 LabBecoPaus systemd[1]: motd-news.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit motd-news.service has successfully entered the 'dead' state.
+fev 23 16:45:52 LabBecoPaus systemd[1]: Finished Message of the Day.
+-- Subject: A start job for unit motd-news.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit motd-news.service has finished successfully.
+-- 
+-- The job identifier is 248960.
+fev 23 16:45:52 LabBecoPaus systemd[1]: Reloading.
+fev 23 16:45:53 LabBecoPaus systemd[1]: Reloading.
+fev 23 16:45:54 LabBecoPaus systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 249697.
+fev 23 16:45:55 LabBecoPaus apachectl[1022460]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+fev 23 16:45:56 LabBecoPaus systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 249697.
+fev 23 16:45:56 LabBecoPaus systemd[1]: Reloading.
+fev 23 16:46:09 LabBecoPaus systemd[1]: Reloading.
+fev 23 16:46:13 LabBecoPaus whoopsie-upload-all[1022317]: /var/crash/_opt_google_chrome_chrome.1000.crash already marked for upload, skipping
+fev 23 16:46:13 LabBecoPaus whoopsie-upload-all[1022317]: All reports processed
+fev 23 16:46:14 LabBecoPaus systemd[1]: apport-autoreport.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apport-autoreport.service has successfully entered the 'dead' state.
+fev 23 16:46:14 LabBecoPaus systemd[1]: Finished Process error reports when automatic reporting is enabled.
+-- Subject: A start job for unit apport-autoreport.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apport-autoreport.service has finished successfully.
+-- 
+-- The job identifier is 248850.
+fev 23 16:46:14 LabBecoPaus systemd[1]: Reloading.
+fev 23 16:46:14 LabBecoPaus systemd[1]: Starting Process error reports when automatic reporting is enabled...
+-- Subject: A start job for unit apport-autoreport.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apport-autoreport.service has begun execution.
+-- 
+-- The job identifier is 250324.
+fev 23 16:46:14 LabBecoPaus systemd[1]: Reloading.
+fev 23 16:46:15 LabBecoPaus systemd[1]: Reloading.
+fev 23 16:46:20 LabBecoPaus whoopsie-upload-all[1022644]: /var/crash/_opt_google_chrome_chrome.1000.crash already marked for upload, skipping
+fev 23 16:46:20 LabBecoPaus whoopsie-upload-all[1022644]: All reports processed
+fev 23 16:46:20 LabBecoPaus systemd[1]: apport-autoreport.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apport-autoreport.service has successfully entered the 'dead' state.
+fev 23 16:46:20 LabBecoPaus systemd[1]: Finished Process error reports when automatic reporting is enabled.
+-- Subject: A start job for unit apport-autoreport.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apport-autoreport.service has finished successfully.
+-- 
+-- The job identifier is 250324.
+fev 23 16:46:45 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.2521' (uid=0 pid=1026586 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+fev 23 16:46:46 LabBecoPaus kernel: [UFW BLOCK] IN=eth2 OUT= MAC=20:cf:30:23:c1:cf:34:2c:c4:a8:ec:c9:08:00 SRC=185.33.221.53 DST=192.168.0.12 LEN=40 TOS=0x00 PREC=0x00 TTL=51 ID=29027 DF PROTO=TCP SPT=443 DPT=53646 WINDOW=0 RES=0x00 RST URGP=0 
+fev 23 16:46:46 LabBecoPaus systemd[1]: Starting PackageKit Daemon...
+-- Subject: A start job for unit packagekit.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has begun execution.
+-- 
+-- The job identifier is 250858.
+fev 23 16:46:47 LabBecoPaus PackageKit[1026589]: daemon start
+fev 23 16:46:48 LabBecoPaus dbus-daemon[1032]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+fev 23 16:46:48 LabBecoPaus systemd[1]: Started PackageKit Daemon.
+-- Subject: A start job for unit packagekit.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has finished successfully.
+-- 
+-- The job identifier is 250858.
+fev 23 16:47:16 LabBecoPaus sudo[1021928]: pam_unix(sudo:session): session closed for user root
+fev 23 16:48:18 LabBecoPaus smartd[1059]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 110 to 109
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7664] dhcp4 (eth2): option dhcp_lease_time      => '3600'
+fev 23 16:48:33 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=1033 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7665] dhcp4 (eth2): option domain_name          => 'home'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7665] dhcp4 (eth2): option domain_name_servers  => '213.228.128.156 213.228.128.6'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7665] dhcp4 (eth2): option expiry               => '1645638512'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7665] dhcp4 (eth2): option host_name            => 'LabBecoPaus'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7665] dhcp4 (eth2): option ip_address           => '192.168.0.12'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7665] dhcp4 (eth2): option next_server          => '192.168.0.1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7665] dhcp4 (eth2): option requested_broadcast_address => '1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7665] dhcp4 (eth2): option requested_domain_name => '1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7666] dhcp4 (eth2): option requested_domain_name_servers => '1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7666] dhcp4 (eth2): option requested_domain_search => '1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7666] dhcp4 (eth2): option requested_host_name  => '1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7666] dhcp4 (eth2): option requested_interface_mtu => '1'
+fev 23 16:48:38 LabBecoPaus dbus-daemon[1032]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7666] dhcp4 (eth2): option requested_ms_classless_static_routes => '1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7666] dhcp4 (eth2): option requested_nis_domain => '1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7666] dhcp4 (eth2): option requested_nis_servers => '1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7666] dhcp4 (eth2): option requested_ntp_servers => '1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7666] dhcp4 (eth2): option requested_rfc3442_classless_static_routes => '1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7666] dhcp4 (eth2): option requested_root_path  => '1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7667] dhcp4 (eth2): option requested_routers    => '1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7667] dhcp4 (eth2): option requested_static_routes => '1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7667] dhcp4 (eth2): option requested_subnet_mask => '1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7667] dhcp4 (eth2): option requested_time_offset => '1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7667] dhcp4 (eth2): option requested_wpad       => '1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7667] dhcp4 (eth2): option routers              => '192.168.0.1'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7667] dhcp4 (eth2): option subnet_mask          => '255.255.255.0'
+fev 23 16:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645634912.7667] dhcp4 (eth2): state changed extended -> extended
+fev 23 16:48:33 LabBecoPaus systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has begun execution.
+-- 
+-- The job identifier is 250960.
+fev 23 16:48:38 LabBecoPaus systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has finished successfully.
+-- 
+-- The job identifier is 250960.
+fev 23 16:48:49 LabBecoPaus systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+fev 23 16:49:22 LabBecoPaus pkexec[1027495]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+fev 23 16:49:22 LabBecoPaus pkexec[1027495]: pgalvao: Executing command [USER=root] [TTY=unknown] [CWD=/home/pgalvao] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+fev 23 16:51:53 LabBecoPaus PackageKit[1026589]: daemon quit
+fev 23 16:51:54 LabBecoPaus systemd[1]: packagekit.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit packagekit.service has successfully entered the 'dead' state.
+fev 23 16:55:02 LabBecoPaus CRON[1027958]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 16:55:02 LabBecoPaus CRON[1027959]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 16:55:02 LabBecoPaus CRON[1027958]: pam_unix(cron:session): session closed for user root
+fev 23 17:05:01 LabBecoPaus CRON[1028500]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 17:05:01 LabBecoPaus CRON[1028503]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 17:05:02 LabBecoPaus CRON[1028500]: pam_unix(cron:session): session closed for user root
+fev 23 17:12:01 LabBecoPaus postfix/pickup[1028906]: error: open file /etc/mailname: No such file or directory
+fev 23 17:13:27 LabBecoPaus sudo[1029378]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 17:13:30 LabBecoPaus sudo[1029378]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 17:13:30 LabBecoPaus sudo[1029378]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/usr/bin/vi perl-example.pl
+fev 23 17:13:30 LabBecoPaus sudo[1029378]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:13:34 LabBecoPaus sudo[1029378]: pam_unix(sudo:session): session closed for user root
+fev 23 17:13:53 LabBecoPaus sudo[1029414]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/chmod 755 perl-example.pl
+fev 23 17:13:53 LabBecoPaus sudo[1029414]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:13:53 LabBecoPaus sudo[1029414]: pam_unix(sudo:session): session closed for user root
+fev 23 17:14:05 LabBecoPaus NetworkManager[1033]: <info>  [1645636445.8901] manager: NetworkManager state is now CONNECTED_SITE
+fev 23 17:14:11 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=1033 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+fev 23 17:14:13 LabBecoPaus whoopsie[1317]: [17:14:13] offline
+fev 23 17:14:16 LabBecoPaus NetworkManager[1033]: <info>  [1645636456.1341] manager: NetworkManager state is now CONNECTED_GLOBAL
+fev 23 17:14:16 LabBecoPaus whoopsie[1317]: [17:14:16] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 17:14:16 LabBecoPaus whoopsie[1317]: [17:14:16] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 17:14:16 LabBecoPaus whoopsie[1317]: [17:14:16] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 17:14:18 LabBecoPaus whoopsie[1317]: [17:14:18] online
+fev 23 17:14:19 LabBecoPaus whoopsie[1317]: [17:14:19] Parsing /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 17:14:19 LabBecoPaus gnome-shell[2684]: pushModal: invocation of begin_modal failed
+fev 23 17:14:21 LabBecoPaus whoopsie[1317]: [17:14:21] Uploading /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 17:14:24 LabBecoPaus systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has begun execution.
+-- 
+-- The job identifier is 251062.
+fev 23 17:14:27 LabBecoPaus dbus-daemon[1032]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+fev 23 17:14:27 LabBecoPaus systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has finished successfully.
+-- 
+-- The job identifier is 251062.
+fev 23 17:14:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636472.8161] manager: NetworkManager state is now CONNECTED_SITE
+fev 23 17:14:34 LabBecoPaus NetworkManager[1033]: <info>  [1645636474.1982] manager: NetworkManager state is now CONNECTED_GLOBAL
+fev 23 17:14:37 LabBecoPaus whoopsie[1317]: [17:14:37] Sent; server replied with: SSL peer certificate or SSH remote key was not OK
+fev 23 17:14:37 LabBecoPaus whoopsie[1317]: [17:14:37] Response code: 0
+fev 23 17:14:37 LabBecoPaus whoopsie[1317]: [17:14:37] offline
+fev 23 17:14:37 LabBecoPaus whoopsie[1317]: [17:14:37] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 17:14:37 LabBecoPaus whoopsie[1317]: [17:14:37] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 17:14:37 LabBecoPaus whoopsie[1317]: [17:14:37] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 17:14:37 LabBecoPaus whoopsie[1317]: [17:14:37] online
+fev 23 17:14:37 LabBecoPaus whoopsie[1317]: [17:14:37] Parsing /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 17:14:37 LabBecoPaus whoopsie[1317]: [17:14:37] Uploading /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 17:14:38 LabBecoPaus whoopsie[1317]: [17:14:38] Sent; server replied with: SSL peer certificate or SSH remote key was not OK
+fev 23 17:14:38 LabBecoPaus whoopsie[1317]: [17:14:38] Response code: 0
+fev 23 17:14:45 LabBecoPaus systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+fev 23 17:15:02 LabBecoPaus CRON[1029680]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 17:15:02 LabBecoPaus CRON[1029681]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 17:15:02 LabBecoPaus CRON[1029680]: pam_unix(cron:session): session closed for user root
+fev 23 17:17:02 LabBecoPaus CRON[1029835]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 17:17:02 LabBecoPaus CRON[1029838]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+fev 23 17:17:02 LabBecoPaus CRON[1029835]: pam_unix(cron:session): session closed for user root
+fev 23 17:17:05 LabBecoPaus systemd[2291]: Started VTE child process 1029834 launched by gnome-terminal-server process 11367.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 2341.
+fev 23 17:18:12 LabBecoPaus systemd[2291]: Started VTE child process 1030237 launched by gnome-terminal-server process 11367.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 2346.
+fev 23 17:18:18 LabBecoPaus smartd[1059]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 109 to 110
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4777] dhcp4 (eth2): option dhcp_lease_time      => '3600'
+fev 23 17:18:32 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=1033 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4778] dhcp4 (eth2): option domain_name          => 'home'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4779] dhcp4 (eth2): option domain_name_servers  => '213.228.128.156 213.228.128.6'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4779] dhcp4 (eth2): option expiry               => '1645640312'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4779] dhcp4 (eth2): option host_name            => 'LabBecoPaus'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4779] dhcp4 (eth2): option ip_address           => '192.168.0.12'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4841] dhcp4 (eth2): option next_server          => '192.168.0.1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4841] dhcp4 (eth2): option requested_broadcast_address => '1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4841] dhcp4 (eth2): option requested_domain_name => '1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4841] dhcp4 (eth2): option requested_domain_name_servers => '1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4842] dhcp4 (eth2): option requested_domain_search => '1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4842] dhcp4 (eth2): option requested_host_name  => '1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4842] dhcp4 (eth2): option requested_interface_mtu => '1'
+fev 23 17:18:34 LabBecoPaus dbus-daemon[1032]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4842] dhcp4 (eth2): option requested_ms_classless_static_routes => '1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4842] dhcp4 (eth2): option requested_nis_domain => '1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4843] dhcp4 (eth2): option requested_nis_servers => '1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4843] dhcp4 (eth2): option requested_ntp_servers => '1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4843] dhcp4 (eth2): option requested_rfc3442_classless_static_routes => '1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4843] dhcp4 (eth2): option requested_root_path  => '1'
+fev 23 17:18:35 LabBecoPaus whoopsie[1317]: [17:18:34] Parsing /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4843] dhcp4 (eth2): option requested_routers    => '1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4844] dhcp4 (eth2): option requested_static_routes => '1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4844] dhcp4 (eth2): option requested_subnet_mask => '1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4844] dhcp4 (eth2): option requested_time_offset => '1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4844] dhcp4 (eth2): option requested_wpad       => '1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4845] dhcp4 (eth2): option routers              => '192.168.0.1'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4845] dhcp4 (eth2): option subnet_mask          => '255.255.255.0'
+fev 23 17:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645636712.4845] dhcp4 (eth2): state changed extended -> extended
+fev 23 17:18:33 LabBecoPaus systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has begun execution.
+-- 
+-- The job identifier is 251164.
+fev 23 17:18:34 LabBecoPaus systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has finished successfully.
+-- 
+-- The job identifier is 251164.
+fev 23 17:18:35 LabBecoPaus whoopsie[1317]: [17:18:35] Uploading /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 17:18:36 LabBecoPaus whoopsie[1317]: [17:18:36] Sent; server replied with: SSL peer certificate or SSH remote key was not OK
+fev 23 17:18:36 LabBecoPaus whoopsie[1317]: [17:18:36] Response code: 0
+fev 23 17:18:44 LabBecoPaus systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+fev 23 17:18:45 LabBecoPaus sudo[1030553]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 17:18:48 LabBecoPaus sudo[1030553]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 17:18:48 LabBecoPaus sudo[1030553]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/usr/bin/vi /etc/hosts
+fev 23 17:18:48 LabBecoPaus sudo[1030553]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:19:11 LabBecoPaus sudo[1030553]: pam_unix(sudo:session): session closed for user root
+fev 23 17:20:06 LabBecoPaus sudo[1030766]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/usr/bin/vi /etc/hosts
+fev 23 17:20:06 LabBecoPaus sudo[1030766]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:23:40 LabBecoPaus systemd-resolved[933]: /etc/hosts:8: hostname "apache_host" is not valid, ignoring.
+fev 23 17:25:01 LabBecoPaus CRON[1031405]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 17:25:01 LabBecoPaus CRON[1031406]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 17:25:01 LabBecoPaus CRON[1031405]: pam_unix(cron:session): session closed for user root
+fev 23 17:27:51 LabBecoPaus sudo[1031695]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/usr/bin/vi /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/default-ssl.conf
+fev 23 17:27:51 LabBecoPaus sudo[1031695]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:28:42 LabBecoPaus sudo[1031695]: pam_unix(sudo:session): session closed for user root
+fev 23 17:30:02 LabBecoPaus CRON[1031962]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 17:30:02 LabBecoPaus CRON[1031963]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+fev 23 17:30:02 LabBecoPaus CRON[1031962]: pam_unix(cron:session): session closed for user root
+fev 23 17:30:33 LabBecoPaus sudo[1031986]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/usr/bin/gedit /etc/apache2/sites-available/default-ssl.conf
+fev 23 17:30:33 LabBecoPaus sudo[1031986]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:30:35 LabBecoPaus dbus-daemon[1032031]: [session uid=0 pid=1032023] AppArmor D-Bus mediation is enabled
+fev 23 17:30:37 LabBecoPaus dbus-daemon[1032031]: [session uid=0 pid=1032023] Activating service name='org.freedesktop.portal.Desktop' requested by ':1.0' (uid=0 pid=1032019 comm="gedit /etc/apache2/sites-available/default-ssl.con" label="unconfined")
+fev 23 17:30:37 LabBecoPaus dbus-daemon[1032031]: [session uid=0 pid=1032023] Activating service name='org.freedesktop.portal.Documents' requested by ':1.1' (uid=0 pid=1032035 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+fev 23 17:30:38 LabBecoPaus dbus-daemon[1032031]: [session uid=0 pid=1032023] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.2' (uid=0 pid=1032040 comm="/usr/libexec/xdg-document-portal " label="unconfined")
+fev 23 17:30:38 LabBecoPaus dbus-daemon[1032031]: [session uid=0 pid=1032023] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+fev 23 17:30:38 LabBecoPaus dbus-daemon[1032031]: [session uid=0 pid=1032023] Successfully activated service 'org.freedesktop.portal.Documents'
+fev 23 17:30:38 LabBecoPaus dbus-daemon[1032031]: [session uid=0 pid=1032023] Activating service name='org.freedesktop.impl.portal.desktop.gtk' requested by ':1.1' (uid=0 pid=1032035 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+fev 23 17:30:39 LabBecoPaus dbus-daemon[1032031]: [session uid=0 pid=1032023] Activating service name='org.gtk.vfs.Daemon' requested by ':1.4' (uid=0 pid=1032053 comm="/usr/libexec/xdg-desktop-portal-gtk " label="unconfined")
+fev 23 17:30:40 LabBecoPaus dbus-daemon[1032031]: [session uid=0 pid=1032023] Successfully activated service 'org.gtk.vfs.Daemon'
+fev 23 17:30:43 LabBecoPaus dbus-daemon[1032031]: [session uid=0 pid=1032023] Activating service name='ca.desrt.dconf' requested by ':1.4' (uid=0 pid=1032053 comm="/usr/libexec/xdg-desktop-portal-gtk " label="unconfined")
+fev 23 17:30:43 LabBecoPaus dbus-daemon[1032031]: [session uid=0 pid=1032023] Successfully activated service 'ca.desrt.dconf'
+fev 23 17:30:46 LabBecoPaus dbus-daemon[1032031]: [session uid=0 pid=1032023] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+fev 23 17:30:46 LabBecoPaus dbus-daemon[1032031]: [session uid=0 pid=1032023] Activating service name='org.freedesktop.secrets' requested by ':1.1' (uid=0 pid=1032035 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+fev 23 17:30:47 LabBecoPaus org.freedesktop.secrets[1032094]: GNOME_KEYRING_CONTROL=/root/.cache/keyring-ATU3H1
+fev 23 17:30:47 LabBecoPaus dbus-daemon[1032031]: [session uid=0 pid=1032023] Successfully activated service 'org.freedesktop.secrets'
+fev 23 17:30:47 LabBecoPaus dbus-daemon[1032031]: [session uid=0 pid=1032023] Successfully activated service 'org.freedesktop.portal.Desktop'
+fev 23 17:30:51 LabBecoPaus gnome-shell[2684]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x4c000f8
+fev 23 17:31:16 LabBecoPaus xdg-desktop-por[1032035]: Failed to get application states: GDBus.Error:org.freedesktop.portal.Error.Failed: Could not get window list
+fev 23 17:31:33 LabBecoPaus sudo[1032142]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/usr/bin/gedit /etc/apache2/sites-available/
+fev 23 17:31:33 LabBecoPaus sudo[1032142]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:31:35 LabBecoPaus sudo[1032142]: pam_unix(sudo:session): session closed for user root
+fev 23 17:31:37 LabBecoPaus gnome-shell[2684]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x4c000f8
+fev 23 17:31:43 LabBecoPaus sudo[1031986]: pam_unix(sudo:session): session closed for user root
+fev 23 17:31:50 LabBecoPaus sudo[1032238]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/cat /etc/apache2/sites-available/
+fev 23 17:31:50 LabBecoPaus sudo[1032238]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:31:50 LabBecoPaus sudo[1032238]: pam_unix(sudo:session): session closed for user root
+fev 23 17:31:52 LabBecoPaus sudo[1032272]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/cat /etc/apache2/sites-available/
+fev 23 17:31:52 LabBecoPaus sudo[1032272]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:31:52 LabBecoPaus sudo[1032272]: pam_unix(sudo:session): session closed for user root
+fev 23 17:31:55 LabBecoPaus sudo[1032315]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/cat /etc/apache2/sites-available/default-ssl.conf
+fev 23 17:31:55 LabBecoPaus sudo[1032315]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:31:55 LabBecoPaus sudo[1032315]: pam_unix(sudo:session): session closed for user root
+fev 23 17:32:01 LabBecoPaus sudo[1032346]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/grep perl /etc/apache2/sites-available/default-ssl.conf
+fev 23 17:32:01 LabBecoPaus sudo[1032346]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:32:01 LabBecoPaus sudo[1032346]: pam_unix(sudo:session): session closed for user root
+fev 23 17:34:47 LabBecoPaus systemd[1]: Started Run anacron jobs.
+-- Subject: A start job for unit anacron.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit anacron.service has finished successfully.
+-- 
+-- The job identifier is 251266.
+fev 23 17:34:48 LabBecoPaus anacron[1032765]: Anacron 2.3 started on 2022-02-23
+fev 23 17:34:48 LabBecoPaus systemd[1]: anacron.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit anacron.service has successfully entered the 'dead' state.
+fev 23 17:34:48 LabBecoPaus anacron[1032765]: Normal exit (0 jobs run)
+fev 23 17:34:54 LabBecoPaus sudo[1032792]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/cat /etc/apache2/sites-available/default-ssl.conf
+fev 23 17:34:54 LabBecoPaus sudo[1032792]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:34:54 LabBecoPaus sudo[1032792]: pam_unix(sudo:session): session closed for user root
+fev 23 17:35:01 LabBecoPaus sudo[1032826]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/grep perl /etc/apache2/sites-available/default-ssl.conf
+fev 23 17:35:01 LabBecoPaus sudo[1032826]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:35:01 LabBecoPaus sudo[1032826]: pam_unix(sudo:session): session closed for user root
+fev 23 17:35:01 LabBecoPaus CRON[1032854]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 17:35:01 LabBecoPaus CRON[1032855]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 17:35:02 LabBecoPaus CRON[1032854]: pam_unix(cron:session): session closed for user root
+fev 23 17:35:58 LabBecoPaus gnome-shell[1020110]: [1020181:1020184:0223/173558.929695:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -113
+fev 23 17:36:04 LabBecoPaus gnome-shell[1020110]: [1020181:1020184:0223/173559.257078:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -113
+fev 23 17:36:23 LabBecoPaus gnome-shell[2684]: pushModal: invocation of begin_modal failed
+fev 23 17:36:57 LabBecoPaus sudo[1033104]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/grep -i scriptalias /etc/apache2/sites-available/default-ssl.conf
+fev 23 17:36:57 LabBecoPaus sudo[1033104]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:36:57 LabBecoPaus sudo[1033104]: pam_unix(sudo:session): session closed for user root
+fev 23 17:37:13 LabBecoPaus sudo[1033161]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/grep -i scriptalias /etc/apache2/apache2.conf /etc/apache2/conf-available /etc/apache2/conf-enabled /etc/apache2/envvars /etc/apache2/magic /etc/apache2/mods-available /etc/apache2/mods-enabled /etc/apache2/ports.conf /etc/apache2/sites-available /etc/apache2/sites-enabled
+fev 23 17:37:13 LabBecoPaus sudo[1033161]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:37:13 LabBecoPaus sudo[1033161]: pam_unix(sudo:session): session closed for user root
+fev 23 17:37:21 LabBecoPaus sudo[1033212]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/grep -i script /etc/apache2/apache2.conf /etc/apache2/conf-available /etc/apache2/conf-enabled /etc/apache2/envvars /etc/apache2/magic /etc/apache2/mods-available /etc/apache2/mods-enabled /etc/apache2/ports.conf /etc/apache2/sites-available /etc/apache2/sites-enabled
+fev 23 17:37:21 LabBecoPaus sudo[1033212]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:37:21 LabBecoPaus sudo[1033212]: pam_unix(sudo:session): session closed for user root
+fev 23 17:37:31 LabBecoPaus sudo[1033247]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/grep -i alias /etc/apache2/apache2.conf /etc/apache2/conf-available /etc/apache2/conf-enabled /etc/apache2/envvars /etc/apache2/magic /etc/apache2/mods-available /etc/apache2/mods-enabled /etc/apache2/ports.conf /etc/apache2/sites-available /etc/apache2/sites-enabled
+fev 23 17:37:31 LabBecoPaus sudo[1033247]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:37:31 LabBecoPaus sudo[1033247]: pam_unix(sudo:session): session closed for user root
+fev 23 17:37:33 LabBecoPaus sudo[1033281]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/grep -i alias /etc/apache2/apache2.conf /etc/apache2/conf-available /etc/apache2/conf-enabled /etc/apache2/envvars /etc/apache2/magic /etc/apache2/mods-available /etc/apache2/mods-enabled /etc/apache2/ports.conf /etc/apache2/sites-available /etc/apache2/sites-enabled
+fev 23 17:37:33 LabBecoPaus sudo[1033281]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:37:33 LabBecoPaus sudo[1033281]: pam_unix(sudo:session): session closed for user root
+fev 23 17:37:48 LabBecoPaus sudo[1033324]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/grep -i cgi /etc/apache2/apache2.conf /etc/apache2/conf-available /etc/apache2/conf-enabled /etc/apache2/envvars /etc/apache2/magic /etc/apache2/mods-available /etc/apache2/mods-enabled /etc/apache2/ports.conf /etc/apache2/sites-available /etc/apache2/sites-enabled
+fev 23 17:37:48 LabBecoPaus sudo[1033324]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:37:48 LabBecoPaus sudo[1033324]: pam_unix(sudo:session): session closed for user root
+fev 23 17:38:14 LabBecoPaus sudo[1033439]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/grep -i cgi /etc/apache2/sites-available/default-ssl.conf
+fev 23 17:38:14 LabBecoPaus sudo[1033439]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:38:14 LabBecoPaus sudo[1033439]: pam_unix(sudo:session): session closed for user root
+fev 23 17:38:37 LabBecoPaus sudo[1030766]: pam_unix(sudo:session): session closed for user root
+fev 23 17:38:57 LabBecoPaus sudo[1033540]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 17:39:01 LabBecoPaus sudo[1033540]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 17:39:01 LabBecoPaus sudo[1033540]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/sbin/sysctl
+fev 23 17:39:01 LabBecoPaus sudo[1033540]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:39:01 LabBecoPaus sudo[1033540]: pam_unix(sudo:session): session closed for user root
+fev 23 17:39:07 LabBecoPaus sudo[1033576]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/sbin/sysctl -l
+fev 23 17:39:07 LabBecoPaus sudo[1033576]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:39:07 LabBecoPaus sudo[1033576]: pam_unix(sudo:session): session closed for user root
+fev 23 17:39:14 LabBecoPaus sudo[1033626]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/sbin/sysctl ls
+fev 23 17:39:14 LabBecoPaus sudo[1033626]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:39:14 LabBecoPaus sudo[1033626]: pam_unix(sudo:session): session closed for user root
+fev 23 17:39:22 LabBecoPaus sudo[1033674]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl
+fev 23 17:39:22 LabBecoPaus sudo[1033674]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:39:23 LabBecoPaus sudo[1033674]: pam_unix(sudo:session): session closed for user root
+fev 23 17:39:27 LabBecoPaus sudo[1033712]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl
+fev 23 17:39:27 LabBecoPaus sudo[1033712]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:39:27 LabBecoPaus sudo[1033712]: pam_unix(sudo:session): session closed for user root
+fev 23 17:39:34 LabBecoPaus sudo[1033753]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl restart apache
+fev 23 17:39:34 LabBecoPaus sudo[1033753]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:39:34 LabBecoPaus sudo[1033753]: pam_unix(sudo:session): session closed for user root
+fev 23 17:39:47 LabBecoPaus sudo[1033836]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl status apache
+fev 23 17:39:47 LabBecoPaus sudo[1033836]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:39:47 LabBecoPaus sudo[1033836]: pam_unix(sudo:session): session closed for user root
+fev 23 17:39:53 LabBecoPaus sudo[1033889]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl status apache2.service
+fev 23 17:39:53 LabBecoPaus sudo[1033889]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:40:04 LabBecoPaus sudo[1033889]: pam_unix(sudo:session): session closed for user root
+fev 23 17:40:11 LabBecoPaus sudo[1033936]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl restart apache2.service
+fev 23 17:40:11 LabBecoPaus sudo[1033936]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:40:11 LabBecoPaus systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 251367.
+fev 23 17:40:13 LabBecoPaus apachectl[1033943]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+fev 23 17:40:14 LabBecoPaus systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+fev 23 17:40:14 LabBecoPaus systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 251367 and the job result is done.
+fev 23 17:40:15 LabBecoPaus systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 251367.
+fev 23 17:40:15 LabBecoPaus systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 251367.
+fev 23 17:40:15 LabBecoPaus sudo[1033936]: pam_unix(sudo:session): session closed for user root
+fev 23 17:40:15 LabBecoPaus apachectl[1033953]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+fev 23 17:40:18 LabBecoPaus sudo[1034069]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl status apache2.service
+fev 23 17:40:18 LabBecoPaus sudo[1034069]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:40:23 LabBecoPaus /usr/lib/gdm3/gdm-x-session[2381]: (EE) client bug: timer event8 debounce: scheduled expiry is in the past (-17ms), your system is too slow
+fev 23 17:40:25 LabBecoPaus /usr/lib/gdm3/gdm-x-session[2381]: (EE) client bug: timer event8 debounce: scheduled expiry is in the past (-171ms), your system is too slow
+fev 23 17:40:25 LabBecoPaus /usr/lib/gdm3/gdm-x-session[2381]: (EE) client bug: timer event8 debounce short: scheduled expiry is in the past (-184ms), your system is too slow
+fev 23 17:41:13 LabBecoPaus sudo[1034069]: pam_unix(sudo:session): session closed for user root
+fev 23 17:45:02 LabBecoPaus CRON[1034622]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 17:45:02 LabBecoPaus CRON[1034623]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 17:45:02 LabBecoPaus CRON[1034622]: pam_unix(cron:session): session closed for user root
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5345] dhcp4 (eth2): option dhcp_lease_time      => '3600'
+fev 23 17:48:33 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=1033 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5351] dhcp4 (eth2): option domain_name          => 'home'
+fev 23 17:48:35 LabBecoPaus dbus-daemon[1032]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5352] dhcp4 (eth2): option domain_name_servers  => '213.228.128.156 213.228.128.6'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5352] dhcp4 (eth2): option expiry               => '1645642112'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5352] dhcp4 (eth2): option host_name            => 'LabBecoPaus'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5352] dhcp4 (eth2): option ip_address           => '192.168.0.12'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5353] dhcp4 (eth2): option next_server          => '192.168.0.1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5353] dhcp4 (eth2): option requested_broadcast_address => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5353] dhcp4 (eth2): option requested_domain_name => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5353] dhcp4 (eth2): option requested_domain_name_servers => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5353] dhcp4 (eth2): option requested_domain_search => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5353] dhcp4 (eth2): option requested_host_name  => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5354] dhcp4 (eth2): option requested_interface_mtu => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5354] dhcp4 (eth2): option requested_ms_classless_static_routes => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5354] dhcp4 (eth2): option requested_nis_domain => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5354] dhcp4 (eth2): option requested_nis_servers => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5354] dhcp4 (eth2): option requested_ntp_servers => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5354] dhcp4 (eth2): option requested_rfc3442_classless_static_routes => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5354] dhcp4 (eth2): option requested_root_path  => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5354] dhcp4 (eth2): option requested_routers    => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5354] dhcp4 (eth2): option requested_static_routes => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5354] dhcp4 (eth2): option requested_subnet_mask => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5355] dhcp4 (eth2): option requested_time_offset => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5355] dhcp4 (eth2): option requested_wpad       => '1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5355] dhcp4 (eth2): option routers              => '192.168.0.1'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5355] dhcp4 (eth2): option subnet_mask          => '255.255.255.0'
+fev 23 17:48:32 LabBecoPaus NetworkManager[1033]: <info>  [1645638512.5355] dhcp4 (eth2): state changed extended -> extended
+fev 23 17:48:33 LabBecoPaus systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has begun execution.
+-- 
+-- The job identifier is 251468.
+fev 23 17:48:35 LabBecoPaus systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has finished successfully.
+-- 
+-- The job identifier is 251468.
+fev 23 17:48:45 LabBecoPaus systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+fev 23 17:49:07 LabBecoPaus sudo[1035216]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 17:49:10 LabBecoPaus sudo[1035216]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 17:49:10 LabBecoPaus sudo[1035216]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/vi apache2.conf
+fev 23 17:49:10 LabBecoPaus sudo[1035216]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:49:18 LabBecoPaus snapd[330337]: storehelpers.go:721: cannot refresh: snap has no updates available: "code", "code-insiders", "code-tray", "core", "core18", "core20"
+fev 23 17:49:18 LabBecoPaus snapd[330337]: autorefresh.go:536: auto-refresh: all snaps are up-to-date
+fev 23 17:51:13 LabBecoPaus sudo[1035216]: pam_unix(sudo:session): session closed for user root
+fev 23 17:51:57 LabBecoPaus gnome-shell[1020110]: [1020181:1020184:0223/175157.538872:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -101
+fev 23 17:52:16 LabBecoPaus gnome-shell[1020110]: [1020181:1020184:0223/175216.489851:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -101
+fev 23 17:52:32 LabBecoPaus gnome-shell[1020110]: [1020181:1020184:0223/175232.361106:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -101
+fev 23 17:53:03 LabBecoPaus gnome-shell[1020110]: Fontconfig error: Cannot load default config file: No such file: (null)
+fev 23 17:54:00 LabBecoPaus sudo[1035678]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 17:54:04 LabBecoPaus sudo[1035678]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 17:54:04 LabBecoPaus sudo[1035678]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/usr/bin/vi bash-example.pl
+fev 23 17:54:04 LabBecoPaus sudo[1035678]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:54:07 LabBecoPaus sudo[1035678]: pam_unix(sudo:session): session closed for user root
+fev 23 17:55:01 LabBecoPaus CRON[1035877]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 17:55:01 LabBecoPaus CRON[1035878]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 17:55:01 LabBecoPaus CRON[1035877]: pam_unix(cron:session): session closed for user root
+fev 23 17:55:46 LabBecoPaus sudo[1036159]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/mv bash-example.pl bash-example.sh
+fev 23 17:55:46 LabBecoPaus sudo[1036159]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:55:46 LabBecoPaus sudo[1036159]: pam_unix(sudo:session): session closed for user root
+fev 23 17:55:57 LabBecoPaus sudo[1036223]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/chmod 755 bash-example.pl
+fev 23 17:55:57 LabBecoPaus sudo[1036223]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:55:57 LabBecoPaus sudo[1036223]: pam_unix(sudo:session): session closed for user root
+fev 23 17:56:08 LabBecoPaus sudo[1036318]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/chmod 755 bash-example.pl
+fev 23 17:56:08 LabBecoPaus sudo[1036318]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:56:08 LabBecoPaus sudo[1036318]: pam_unix(sudo:session): session closed for user root
+fev 23 17:56:11 LabBecoPaus sudo[1036359]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/bin/chmod 755 bash-example.sh
+fev 23 17:56:11 LabBecoPaus sudo[1036359]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 17:56:11 LabBecoPaus sudo[1036359]: pam_unix(sudo:session): session closed for user root
+fev 23 17:59:30 LabBecoPaus sudo[1036614]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/usr/bin/vi /etc/hosts
+fev 23 17:59:30 LabBecoPaus sudo[1036614]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:01:55 LabBecoPaus sudo[1037126]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 18:01:59 LabBecoPaus sudo[1037126]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 18:01:59 LabBecoPaus sudo[1037126]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl status apache2.service
+fev 23 18:01:59 LabBecoPaus sudo[1037126]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:02:46 LabBecoPaus sudo[1037126]: pam_unix(sudo:session): session closed for user root
+fev 23 18:02:47 LabBecoPaus sudo[1037227]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl status apache2.service
+fev 23 18:02:47 LabBecoPaus sudo[1037227]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:02:52 LabBecoPaus sudo[1037227]: pam_unix(sudo:session): session closed for user root
+fev 23 18:03:04 LabBecoPaus sudo[1037274]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/journalctl -xef
+fev 23 18:03:04 LabBecoPaus sudo[1037274]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:05:02 LabBecoPaus sudo[1037274]: pam_unix(sudo:session): session closed for user root
+fev 23 18:05:03 LabBecoPaus CRON[1037406]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 18:05:03 LabBecoPaus CRON[1037414]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 18:05:04 LabBecoPaus CRON[1037406]: pam_unix(cron:session): session closed for user root
+fev 23 18:14:48 LabBecoPaus sudo[1037906]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 18:14:54 LabBecoPaus sudo[1037906]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 18:14:54 LabBecoPaus sudo[1037906]: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/7 ruser=pgalvao rhost=  user=pgalvao
+fev 23 18:14:56 LabBecoPaus sudo[1037906]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 18:15:00 LabBecoPaus sudo[1037906]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 18:15:00 LabBecoPaus sudo[1037906]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/vi sites-enabled/000-default.conf
+fev 23 18:15:00 LabBecoPaus sudo[1037906]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:15:01 LabBecoPaus CRON[1037911]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 18:15:01 LabBecoPaus CRON[1037912]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 18:15:01 LabBecoPaus CRON[1037911]: pam_unix(cron:session): session closed for user root
+fev 23 18:15:53 LabBecoPaus sudo[1037906]: pam_unix(sudo:session): session closed for user root
+fev 23 18:16:23 LabBecoPaus systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 1038023 (sysctl)
+fev 23 18:16:23 LabBecoPaus systemd[1]: Mounting Arbitrary Executable File Formats File System...
+-- Subject: A start job for unit proc-sys-fs-binfmt_misc.mount has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit proc-sys-fs-binfmt_misc.mount has begun execution.
+-- 
+-- The job identifier is 251570.
+fev 23 18:16:25 LabBecoPaus systemd[1]: Mounted Arbitrary Executable File Formats File System.
+-- Subject: A start job for unit proc-sys-fs-binfmt_misc.mount has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit proc-sys-fs-binfmt_misc.mount has finished successfully.
+-- 
+-- The job identifier is 251570.
+fev 23 18:16:39 LabBecoPaus sudo[1038065]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/sbin/sysctl status apache2
+fev 23 18:16:39 LabBecoPaus sudo[1038065]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:16:39 LabBecoPaus sudo[1038065]: pam_unix(sudo:session): session closed for user root
+fev 23 18:16:51 LabBecoPaus sudo[1038107]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/sbin/sysctl status apache2
+fev 23 18:16:51 LabBecoPaus sudo[1038107]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:16:51 LabBecoPaus sudo[1038107]: pam_unix(sudo:session): session closed for user root
+fev 23 18:17:01 LabBecoPaus CRON[1038159]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 18:17:01 LabBecoPaus CRON[1038160]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+fev 23 18:17:01 LabBecoPaus CRON[1038159]: pam_unix(cron:session): session closed for user root
+fev 23 18:17:38 LabBecoPaus sudo[1038282]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl status apache2.service
+fev 23 18:17:38 LabBecoPaus sudo[1038282]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:17:48 LabBecoPaus sudo[1038282]: pam_unix(sudo:session): session closed for user root
+fev 23 18:17:57 LabBecoPaus sudo[1038325]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl restart apache2.service
+fev 23 18:17:57 LabBecoPaus sudo[1038325]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:17:57 LabBecoPaus systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 251574.
+fev 23 18:17:58 LabBecoPaus apachectl[1038330]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+fev 23 18:17:59 LabBecoPaus systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+fev 23 18:17:59 LabBecoPaus systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 251574 and the job result is done.
+fev 23 18:18:00 LabBecoPaus systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 251574.
+fev 23 18:18:00 LabBecoPaus apachectl[1038351]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+fev 23 18:18:00 LabBecoPaus systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 251574.
+fev 23 18:18:00 LabBecoPaus sudo[1038325]: pam_unix(sudo:session): session closed for user root
+fev 23 18:18:05 LabBecoPaus sudo[1038436]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl status apache2.service
+fev 23 18:18:05 LabBecoPaus sudo[1038436]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5817] dhcp4 (eth2): option dhcp_lease_time      => '3600'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5817] dhcp4 (eth2): option domain_name          => 'home'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5817] dhcp4 (eth2): option domain_name_servers  => '213.228.128.156 213.228.128.6'
+fev 23 18:18:33 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=1033 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5818] dhcp4 (eth2): option expiry               => '1645643912'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5818] dhcp4 (eth2): option host_name            => 'LabBecoPaus'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5818] dhcp4 (eth2): option ip_address           => '192.168.0.12'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5818] dhcp4 (eth2): option next_server          => '192.168.0.1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5818] dhcp4 (eth2): option requested_broadcast_address => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5818] dhcp4 (eth2): option requested_domain_name => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5818] dhcp4 (eth2): option requested_domain_name_servers => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5818] dhcp4 (eth2): option requested_domain_search => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5818] dhcp4 (eth2): option requested_host_name  => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5819] dhcp4 (eth2): option requested_interface_mtu => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5819] dhcp4 (eth2): option requested_ms_classless_static_routes => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5819] dhcp4 (eth2): option requested_nis_domain => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5819] dhcp4 (eth2): option requested_nis_servers => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5819] dhcp4 (eth2): option requested_ntp_servers => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5819] dhcp4 (eth2): option requested_rfc3442_classless_static_routes => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5819] dhcp4 (eth2): option requested_root_path  => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5819] dhcp4 (eth2): option requested_routers    => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5819] dhcp4 (eth2): option requested_static_routes => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5819] dhcp4 (eth2): option requested_subnet_mask => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5820] dhcp4 (eth2): option requested_time_offset => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5820] dhcp4 (eth2): option requested_wpad       => '1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5820] dhcp4 (eth2): option routers              => '192.168.0.1'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5820] dhcp4 (eth2): option subnet_mask          => '255.255.255.0'
+fev 23 18:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645640312.5820] dhcp4 (eth2): state changed extended -> extended
+fev 23 18:18:33 LabBecoPaus systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has begun execution.
+-- 
+-- The job identifier is 251675.
+fev 23 18:18:36 LabBecoPaus dbus-daemon[1032]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+fev 23 18:18:36 LabBecoPaus systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has finished successfully.
+-- 
+-- The job identifier is 251675.
+fev 23 18:18:46 LabBecoPaus systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+fev 23 18:19:00 LabBecoPaus sudo[1038544]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/vi sites-enabled/000-default.conf
+fev 23 18:19:00 LabBecoPaus sudo[1038544]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:19:21 LabBecoPaus sudo[1038544]: pam_unix(sudo:session): session closed for user root
+fev 23 18:19:59 LabBecoPaus sudo[1038781]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/vi sites-enabled/000-default.conf
+fev 23 18:19:59 LabBecoPaus sudo[1038781]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:20:05 LabBecoPaus sudo[1038781]: pam_unix(sudo:session): session closed for user root
+fev 23 18:20:17 LabBecoPaus sudo[1038846]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/vi sites-available/000-default.conf
+fev 23 18:20:17 LabBecoPaus sudo[1038846]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:20:22 LabBecoPaus sudo[1038846]: pam_unix(sudo:session): session closed for user root
+fev 23 18:20:28 LabBecoPaus sudo[1038917]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/vi sites-available/default-ssl.conf
+fev 23 18:20:28 LabBecoPaus sudo[1038917]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:20:45 LabBecoPaus sudo[1038917]: pam_unix(sudo:session): session closed for user root
+fev 23 18:20:54 LabBecoPaus sudo[1038436]: pam_unix(sudo:session): session closed for user root
+fev 23 18:21:01 LabBecoPaus sudo[1039055]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl status apache2
+fev 23 18:21:01 LabBecoPaus sudo[1039055]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:21:05 LabBecoPaus sudo[1039055]: pam_unix(sudo:session): session closed for user root
+fev 23 18:21:09 LabBecoPaus sudo[1039090]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl stop apache2
+fev 23 18:21:09 LabBecoPaus sudo[1039090]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:21:09 LabBecoPaus systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 251777.
+fev 23 18:21:09 LabBecoPaus apachectl[1039095]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+fev 23 18:21:09 LabBecoPaus systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+fev 23 18:21:09 LabBecoPaus systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 251777 and the job result is done.
+fev 23 18:21:09 LabBecoPaus sudo[1039090]: pam_unix(sudo:session): session closed for user root
+fev 23 18:21:14 LabBecoPaus sudo[1039144]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl start apache2
+fev 23 18:21:14 LabBecoPaus sudo[1039144]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:21:14 LabBecoPaus systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 251778.
+fev 23 18:21:15 LabBecoPaus systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 251778.
+fev 23 18:21:15 LabBecoPaus sudo[1039144]: pam_unix(sudo:session): session closed for user root
+fev 23 18:21:15 LabBecoPaus apachectl[1039167]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+fev 23 18:21:17 LabBecoPaus sudo[1039251]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl status apache2
+fev 23 18:21:17 LabBecoPaus sudo[1039251]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:21:23 LabBecoPaus sudo[1036614]: pam_unix(sudo:session): session closed for user root
+fev 23 18:22:23 LabBecoPaus sudo[1039251]: pam_unix(sudo:session): session closed for user root
+fev 23 18:22:31 LabBecoPaus sudo[1039465]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/usr/bin/vi /etc/apache2/apache2.conf
+fev 23 18:22:31 LabBecoPaus sudo[1039465]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:23:23 LabBecoPaus sudo[1039465]: pam_unix(sudo:session): session closed for user root
+fev 23 18:23:31 LabBecoPaus sudo[1039525]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl reload apache2
+fev 23 18:23:31 LabBecoPaus sudo[1039525]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:23:32 LabBecoPaus systemd[1]: Reloading The Apache HTTP Server.
+-- Subject: A reload job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A reload job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 251879.
+fev 23 18:23:33 LabBecoPaus systemd[1]: Reloaded The Apache HTTP Server.
+-- Subject: A reload job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A reload job for unit apache2.service has finished.
+-- 
+-- The job identifier is 251879 and the job result is done.
+fev 23 18:23:33 LabBecoPaus sudo[1039525]: pam_unix(sudo:session): session closed for user root
+fev 23 18:23:37 LabBecoPaus sudo[1039617]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl status apache2.service
+fev 23 18:23:37 LabBecoPaus sudo[1039617]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:24:35 LabBecoPaus sudo[1039617]: pam_unix(sudo:session): session closed for user root
+fev 23 18:24:46 LabBecoPaus sudo[1039790]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/journalctl -xef
+fev 23 18:24:46 LabBecoPaus sudo[1039790]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:25:01 LabBecoPaus CRON[1039812]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 18:25:01 LabBecoPaus CRON[1039813]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 18:25:01 LabBecoPaus CRON[1039812]: pam_unix(cron:session): session closed for user root
+fev 23 18:25:18 LabBecoPaus sudo[1039790]: pam_unix(sudo:session): session closed for user root
+fev 23 18:28:03 LabBecoPaus sudo[1040066]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/vi mods-available/mime.conf
+fev 23 18:28:03 LabBecoPaus sudo[1040066]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:28:31 LabBecoPaus sudo[1040066]: pam_unix(sudo:session): session closed for user root
+fev 23 18:28:43 LabBecoPaus sudo[1040182]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl reload apache2
+fev 23 18:28:43 LabBecoPaus sudo[1040182]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:28:43 LabBecoPaus systemd[1]: Reloading The Apache HTTP Server.
+-- Subject: A reload job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A reload job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 251880.
+fev 23 18:28:44 LabBecoPaus systemd[1]: Reloaded The Apache HTTP Server.
+-- Subject: A reload job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A reload job for unit apache2.service has finished.
+-- 
+-- The job identifier is 251880 and the job result is done.
+fev 23 18:28:44 LabBecoPaus sudo[1040182]: pam_unix(sudo:session): session closed for user root
+fev 23 18:29:53 LabBecoPaus NetworkManager[1033]: <info>  [1645640993.9015] manager: NetworkManager state is now CONNECTED_SITE
+fev 23 18:29:57 LabBecoPaus NetworkManager[1033]: <info>  [1645640997.7683] manager: NetworkManager state is now CONNECTED_GLOBAL
+fev 23 18:29:57 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=1033 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+fev 23 18:29:59 LabBecoPaus systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has begun execution.
+-- 
+-- The job identifier is 251881.
+fev 23 18:30:00 LabBecoPaus whoopsie[1317]: [18:29:58] offline
+fev 23 18:30:01 LabBecoPaus whoopsie[1317]: [18:30:00] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 18:30:01 LabBecoPaus whoopsie[1317]: [18:30:00] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 18:30:01 LabBecoPaus whoopsie[1317]: [18:30:00] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 18:30:01 LabBecoPaus whoopsie[1317]: [18:30:00] online
+fev 23 18:30:02 LabBecoPaus systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has finished successfully.
+-- 
+-- The job identifier is 251881.
+fev 23 18:30:02 LabBecoPaus dbus-daemon[1032]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+fev 23 18:30:02 LabBecoPaus CRON[1040539]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 18:30:02 LabBecoPaus CRON[1040541]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+fev 23 18:30:02 LabBecoPaus CRON[1040539]: pam_unix(cron:session): session closed for user root
+fev 23 18:30:03 LabBecoPaus whoopsie[1317]: [18:30:02] Parsing /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 18:30:03 LabBecoPaus whoopsie[1317]: [18:30:03] Uploading /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 18:30:07 LabBecoPaus whoopsie[1317]: [18:30:07] Sent; server replied with: SSL peer certificate or SSH remote key was not OK
+fev 23 18:30:07 LabBecoPaus whoopsie[1317]: [18:30:07] Response code: 0
+fev 23 18:30:12 LabBecoPaus systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+fev 23 18:30:15 LabBecoPaus sudo[1040582]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/a2enmod cgi
+fev 23 18:30:15 LabBecoPaus sudo[1040582]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:30:15 LabBecoPaus sudo[1040582]: pam_unix(sudo:session): session closed for user root
+fev 23 18:30:33 LabBecoPaus sudo[1040738]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl restart apache2
+fev 23 18:30:33 LabBecoPaus sudo[1040738]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:30:33 LabBecoPaus systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 251983.
+fev 23 18:30:33 LabBecoPaus systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+fev 23 18:30:33 LabBecoPaus systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 251983 and the job result is done.
+fev 23 18:30:33 LabBecoPaus systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 251983.
+fev 23 18:30:33 LabBecoPaus systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 251983.
+fev 23 18:30:33 LabBecoPaus sudo[1040738]: pam_unix(sudo:session): session closed for user root
+fev 23 18:31:57 LabBecoPaus sudo[1041072]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/vi mods-available/mime.conf
+fev 23 18:31:57 LabBecoPaus sudo[1041072]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:32:17 LabBecoPaus sudo[1041072]: pam_unix(sudo:session): session closed for user root
+fev 23 18:32:43 LabBecoPaus sudo[1041265]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/a2enmod cgi
+fev 23 18:32:43 LabBecoPaus sudo[1041265]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:32:43 LabBecoPaus sudo[1041265]: pam_unix(sudo:session): session closed for user root
+fev 23 18:33:03 LabBecoPaus sudo[1041308]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/a2enmod perl
+fev 23 18:33:03 LabBecoPaus sudo[1041308]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:33:03 LabBecoPaus sudo[1041308]: pam_unix(sudo:session): session closed for user root
+fev 23 18:33:06 LabBecoPaus sudo[1041345]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/a2enmod pl
+fev 23 18:33:06 LabBecoPaus sudo[1041345]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:33:06 LabBecoPaus sudo[1041345]: pam_unix(sudo:session): session closed for user root
+fev 23 18:33:14 LabBecoPaus sudo[1041421]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl restart apache2
+fev 23 18:33:14 LabBecoPaus sudo[1041421]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:33:14 LabBecoPaus systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 252084.
+fev 23 18:33:14 LabBecoPaus systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+fev 23 18:33:14 LabBecoPaus systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 252084 and the job result is done.
+fev 23 18:33:14 LabBecoPaus systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 252084.
+fev 23 18:33:14 LabBecoPaus systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 252084.
+fev 23 18:33:14 LabBecoPaus sudo[1041421]: pam_unix(sudo:session): session closed for user root
+fev 23 18:33:20 LabBecoPaus sudo[1041557]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl status apache2
+fev 23 18:33:20 LabBecoPaus sudo[1041557]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:33:29 LabBecoPaus sudo[1041557]: pam_unix(sudo:session): session closed for user root
+fev 23 18:33:52 LabBecoPaus systemd[1]: Started Run anacron jobs.
+-- Subject: A start job for unit anacron.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit anacron.service has finished successfully.
+-- 
+-- The job identifier is 252185.
+fev 23 18:33:52 LabBecoPaus anacron[1041711]: Anacron 2.3 started on 2022-02-23
+fev 23 18:33:52 LabBecoPaus systemd[1]: anacron.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit anacron.service has successfully entered the 'dead' state.
+fev 23 18:33:52 LabBecoPaus anacron[1041711]: Normal exit (0 jobs run)
+fev 23 18:34:13 LabBecoPaus systemd[2291]: Started VTE child process 1041736 launched by gnome-terminal-server process 11367.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 2351.
+fev 23 18:35:01 LabBecoPaus CRON[1042123]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 18:35:01 LabBecoPaus CRON[1042124]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 18:35:01 LabBecoPaus CRON[1042123]: pam_unix(cron:session): session closed for user root
+fev 23 18:42:19 LabBecoPaus sudo[1043211]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/a2enmod cgi
+fev 23 18:42:20 LabBecoPaus sudo[1043211]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:42:22 LabBecoPaus sudo[1043211]: pam_unix(sudo:session): session closed for user root
+fev 23 18:42:32 LabBecoPaus sudo[1043247]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/a2enmod --help
+fev 23 18:42:32 LabBecoPaus sudo[1043247]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:42:32 LabBecoPaus sudo[1043247]: pam_unix(sudo:session): session closed for user root
+fev 23 18:42:36 LabBecoPaus sudo[1043281]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/a2enmod /?
+fev 23 18:42:36 LabBecoPaus sudo[1043281]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:42:36 LabBecoPaus sudo[1043281]: pam_unix(sudo:session): session closed for user root
+fev 23 18:42:38 LabBecoPaus sudo[1043318]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/a2enmod
+fev 23 18:42:38 LabBecoPaus sudo[1043318]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:45:12 LabBecoPaus CRON[1043624]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 18:45:12 LabBecoPaus CRON[1043630]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 18:45:16 LabBecoPaus CRON[1043624]: pam_unix(cron:session): session closed for user root
+fev 23 18:45:42 LabBecoPaus sudo[1043318]: pam_unix(sudo:session): session closed for user root
+fev 23 18:46:41 LabBecoPaus gnome-shell[1020110]: [1020181:1020184:0223/184641.475022:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+fev 23 18:46:49 LabBecoPaus gnome-shell[1020110]: [1020181:1020184:0223/184643.512904:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+fev 23 18:46:52 LabBecoPaus gnome-shell[1020110]: [1020181:1020184:0223/184652.000816:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -101
+fev 23 18:47:29 LabBecoPaus gnome-shell[1020110]: Fontconfig error: Cannot load default config file: No such file: (null)
+fev 23 18:48:05 LabBecoPaus gnome-shell[2684]: Window manager warning: last_focus_time (1200620395) is greater than comparison timestamp (1200617904).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+fev 23 18:48:20 LabBecoPaus smartd[1059]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 110 to 109
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6401] dhcp4 (eth2): option dhcp_lease_time      => '3600'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6641] dhcp4 (eth2): option domain_name          => 'home'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6641] dhcp4 (eth2): option domain_name_servers  => '213.228.128.156 213.228.128.6'
+fev 23 18:48:38 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=1033 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6641] dhcp4 (eth2): option expiry               => '1645645712'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6641] dhcp4 (eth2): option host_name            => 'LabBecoPaus'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6641] dhcp4 (eth2): option ip_address           => '192.168.0.12'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6641] dhcp4 (eth2): option next_server          => '192.168.0.1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6642] dhcp4 (eth2): option requested_broadcast_address => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6642] dhcp4 (eth2): option requested_domain_name => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6642] dhcp4 (eth2): option requested_domain_name_servers => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6642] dhcp4 (eth2): option requested_domain_search => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6642] dhcp4 (eth2): option requested_host_name  => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6642] dhcp4 (eth2): option requested_interface_mtu => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6642] dhcp4 (eth2): option requested_ms_classless_static_routes => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6642] dhcp4 (eth2): option requested_nis_domain => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6642] dhcp4 (eth2): option requested_nis_servers => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6642] dhcp4 (eth2): option requested_ntp_servers => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6643] dhcp4 (eth2): option requested_rfc3442_classless_static_routes => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6643] dhcp4 (eth2): option requested_root_path  => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6643] dhcp4 (eth2): option requested_routers    => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6643] dhcp4 (eth2): option requested_static_routes => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6643] dhcp4 (eth2): option requested_subnet_mask => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6643] dhcp4 (eth2): option requested_time_offset => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6643] dhcp4 (eth2): option requested_wpad       => '1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6643] dhcp4 (eth2): option routers              => '192.168.0.1'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6643] dhcp4 (eth2): option subnet_mask          => '255.255.255.0'
+fev 23 18:48:34 LabBecoPaus NetworkManager[1033]: <info>  [1645642114.6644] dhcp4 (eth2): state changed extended -> extended
+fev 23 18:49:00 LabBecoPaus systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has begun execution.
+-- 
+-- The job identifier is 252286.
+fev 23 18:49:02 LabBecoPaus dbus-daemon[1032]: [system] Failed to activate service 'org.freedesktop.nm_dispatcher': timed out (service_start_timeout=25000ms)
+fev 23 18:49:16 LabBecoPaus /usr/lib/gdm3/gdm-x-session[2381]: (II) event8  - Logitech Wireless Mouse PID:4022: SYN_DROPPED event - some input events have been lost.
+fev 23 18:49:16 LabBecoPaus sudo[1044204]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/vi mods-available/
+fev 23 18:49:33 LabBecoPaus /usr/lib/gdm3/gdm-x-session[2381]: (II) event8  - Logitech Wireless Mouse PID:4022: SYN_DROPPED event - some input events have been lost.
+fev 23 18:49:33 LabBecoPaus /usr/lib/gdm3/gdm-x-session[2381]: (II) event8  - Logitech Wireless Mouse PID:4022: SYN_DROPPED event - some input events have been lost.
+fev 23 18:49:26 LabBecoPaus systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has finished successfully.
+-- 
+-- The job identifier is 252286.
+fev 23 18:49:20 LabBecoPaus sudo[1044204]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 18:49:34 LabBecoPaus gnome-shell[2684]: pushModal: invocation of begin_modal failed
+fev 23 18:49:35 LabBecoPaus systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+fev 23 18:50:47 LabBecoPaus gnome-shell[1020110]: Fontconfig error: Cannot load default config file: No such file: (null)
+fev 23 18:52:16 LabBecoPaus postfix/pickup[1044396]: error: open file /etc/mailname: No such file or directory
+fev 23 18:55:05 LabBecoPaus CRON[1044487]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 18:55:06 LabBecoPaus CRON[1044488]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 18:55:07 LabBecoPaus CRON[1044487]: pam_unix(cron:session): session closed for user root
+fev 23 18:55:22 LabBecoPaus NetworkManager[1033]: <info>  [1645642522.7514] manager: NetworkManager state is now CONNECTED_SITE
+fev 23 18:55:38 LabBecoPaus NetworkManager[1033]: <info>  [1645642538.5024] manager: NetworkManager state is now CONNECTED_GLOBAL
+fev 23 18:55:32 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=1033 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+fev 23 18:55:52 LabBecoPaus whoopsie[1317]: [18:55:52] offline
+fev 23 18:55:55 LabBecoPaus whoopsie[1317]: [18:55:54] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 18:55:56 LabBecoPaus whoopsie[1317]: [18:55:56] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 18:55:56 LabBecoPaus whoopsie[1317]: [18:55:56] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 18:55:57 LabBecoPaus dbus-daemon[1032]: [system] Failed to activate service 'org.freedesktop.nm_dispatcher': timed out (service_start_timeout=25000ms)
+fev 23 18:55:58 LabBecoPaus systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has begun execution.
+-- 
+-- The job identifier is 252388.
+fev 23 18:56:03 LabBecoPaus whoopsie[1317]: [18:56:03] online
+fev 23 18:56:05 LabBecoPaus whoopsie[1317]: [18:56:05] Parsing /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 18:56:14 LabBecoPaus whoopsie[1317]: [18:56:14] Uploading /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 18:56:15 LabBecoPaus systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has finished successfully.
+-- 
+-- The job identifier is 252388.
+fev 23 18:56:26 LabBecoPaus systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+fev 23 18:57:05 LabBecoPaus whoopsie[1317]: [18:57:05] Sent; server replied with: SSL peer certificate or SSH remote key was not OK
+fev 23 18:57:05 LabBecoPaus whoopsie[1317]: [18:57:05] Response code: 0
+fev 23 19:05:01 LabBecoPaus CRON[1044800]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 19:05:01 LabBecoPaus CRON[1044801]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 19:05:02 LabBecoPaus CRON[1044800]: pam_unix(cron:session): session closed for user root
+fev 23 19:05:51 LabBecoPaus NetworkManager[1033]: <info>  [1645643151.8705] manager: NetworkManager state is now CONNECTED_SITE
+fev 23 19:05:52 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=1033 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+fev 23 19:05:55 LabBecoPaus whoopsie[1317]: [19:05:52] offline
+fev 23 19:05:55 LabBecoPaus whoopsie[1317]: [19:05:54] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 19:05:55 LabBecoPaus whoopsie[1317]: [19:05:54] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 19:05:55 LabBecoPaus whoopsie[1317]: [19:05:54] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 19:05:55 LabBecoPaus whoopsie[1317]: [19:05:54] online
+fev 23 19:05:55 LabBecoPaus whoopsie[1317]: [19:05:54] Parsing /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 19:05:53 LabBecoPaus NetworkManager[1033]: <info>  [1645643153.8438] manager: NetworkManager state is now CONNECTED_GLOBAL
+fev 23 19:05:56 LabBecoPaus whoopsie[1317]: [19:05:55] Uploading /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 19:05:55 LabBecoPaus systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has begun execution.
+-- 
+-- The job identifier is 252490.
+fev 23 19:06:00 LabBecoPaus dbus-daemon[1032]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+fev 23 19:06:00 LabBecoPaus systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has finished successfully.
+-- 
+-- The job identifier is 252490.
+fev 23 19:06:01 LabBecoPaus whoopsie[1317]: [19:06:01] Sent; server replied with: SSL peer certificate or SSH remote key was not OK
+fev 23 19:06:01 LabBecoPaus whoopsie[1317]: [19:06:01] Response code: 0
+fev 23 19:06:10 LabBecoPaus systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+fev 23 19:06:12 LabBecoPaus NetworkManager[1033]: <info>  [1645643172.8155] manager: NetworkManager state is now CONNECTED_SITE
+fev 23 19:06:12 LabBecoPaus systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has begun execution.
+-- 
+-- The job identifier is 252592.
+fev 23 19:06:12 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=1033 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+fev 23 19:06:13 LabBecoPaus whoopsie[1317]: [19:06:12] offline
+fev 23 19:06:12 LabBecoPaus dbus-daemon[1032]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+fev 23 19:06:12 LabBecoPaus systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has finished successfully.
+-- 
+-- The job identifier is 252592.
+fev 23 19:06:14 LabBecoPaus NetworkManager[1033]: <info>  [1645643174.1499] manager: NetworkManager state is now CONNECTED_GLOBAL
+fev 23 19:06:14 LabBecoPaus whoopsie[1317]: [19:06:14] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 19:06:14 LabBecoPaus whoopsie[1317]: [19:06:14] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 19:06:14 LabBecoPaus whoopsie[1317]: [19:06:14] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 19:06:14 LabBecoPaus whoopsie[1317]: [19:06:14] online
+fev 23 19:06:14 LabBecoPaus whoopsie[1317]: [19:06:14] Parsing /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 19:06:14 LabBecoPaus whoopsie[1317]: [19:06:14] Uploading /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 19:06:14 LabBecoPaus whoopsie[1317]: [19:06:14] Sent; server replied with: SSL peer certificate or SSH remote key was not OK
+fev 23 19:06:14 LabBecoPaus whoopsie[1317]: [19:06:14] Response code: 0
+fev 23 19:06:24 LabBecoPaus systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+fev 23 19:12:55 LabBecoPaus /usr/lib/gdm3/gdm-x-session[2381]: (EE) client bug: timer event8 debounce: scheduled expiry is in the past (-73ms), your system is too slow
+fev 23 19:12:57 LabBecoPaus /usr/lib/gdm3/gdm-x-session[2381]: (EE) client bug: timer event8 debounce short: scheduled expiry is in the past (-193ms), your system is too slow
+fev 23 19:15:01 LabBecoPaus CRON[1045449]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 19:15:01 LabBecoPaus CRON[1045450]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 19:15:01 LabBecoPaus CRON[1045449]: pam_unix(cron:session): session closed for user root
+fev 23 19:16:23 LabBecoPaus sudo[1044204]: pam_unix(sudo:session): session closed for user root
+fev 23 19:16:34 LabBecoPaus sudo[1045718]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 19:16:41 LabBecoPaus sudo[1045718]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 19:16:41 LabBecoPaus sudo[1045718]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/a2enmod cgi
+fev 23 19:16:41 LabBecoPaus sudo[1045718]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 19:16:42 LabBecoPaus sudo[1045718]: pam_unix(sudo:session): session closed for user root
+fev 23 19:16:47 LabBecoPaus sudo[1045754]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/a2enmod cgid
+fev 23 19:16:47 LabBecoPaus sudo[1045754]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 19:16:47 LabBecoPaus sudo[1045754]: pam_unix(sudo:session): session closed for user root
+fev 23 19:17:01 LabBecoPaus CRON[1045794]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 19:17:01 LabBecoPaus CRON[1045795]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+fev 23 19:17:01 LabBecoPaus CRON[1045794]: pam_unix(cron:session): session closed for user root
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6267] dhcp4 (eth2): option dhcp_lease_time      => '3600'
+fev 23 19:18:45 LabBecoPaus whoopsie[1317]: [19:18:35] Parsing /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 19:18:45 LabBecoPaus whoopsie[1317]: [19:18:36] Uploading /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6268] dhcp4 (eth2): option domain_name          => 'home'
+fev 23 19:18:36 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=1033 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6268] dhcp4 (eth2): option domain_name_servers  => '213.228.128.156 213.228.128.6'
+fev 23 19:18:48 LabBecoPaus dbus-daemon[1032]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6268] dhcp4 (eth2): option expiry               => '1645647512'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6268] dhcp4 (eth2): option host_name            => 'LabBecoPaus'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6269] dhcp4 (eth2): option ip_address           => '192.168.0.12'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6269] dhcp4 (eth2): option next_server          => '192.168.0.1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6269] dhcp4 (eth2): option requested_broadcast_address => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6269] dhcp4 (eth2): option requested_domain_name => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6269] dhcp4 (eth2): option requested_domain_name_servers => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6269] dhcp4 (eth2): option requested_domain_search => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6269] dhcp4 (eth2): option requested_host_name  => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6269] dhcp4 (eth2): option requested_interface_mtu => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6269] dhcp4 (eth2): option requested_ms_classless_static_routes => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6269] dhcp4 (eth2): option requested_nis_domain => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6270] dhcp4 (eth2): option requested_nis_servers => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6270] dhcp4 (eth2): option requested_ntp_servers => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6270] dhcp4 (eth2): option requested_rfc3442_classless_static_routes => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6270] dhcp4 (eth2): option requested_root_path  => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6270] dhcp4 (eth2): option requested_routers    => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6270] dhcp4 (eth2): option requested_static_routes => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6270] dhcp4 (eth2): option requested_subnet_mask => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6270] dhcp4 (eth2): option requested_time_offset => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6270] dhcp4 (eth2): option requested_wpad       => '1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6270] dhcp4 (eth2): option routers              => '192.168.0.1'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6271] dhcp4 (eth2): option subnet_mask          => '255.255.255.0'
+fev 23 19:18:33 LabBecoPaus NetworkManager[1033]: <info>  [1645643913.6271] dhcp4 (eth2): state changed extended -> extended
+fev 23 19:18:37 LabBecoPaus systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has begun execution.
+-- 
+-- The job identifier is 252694.
+fev 23 19:18:48 LabBecoPaus systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has finished successfully.
+-- 
+-- The job identifier is 252694.
+fev 23 19:18:59 LabBecoPaus systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+fev 23 19:19:01 LabBecoPaus whoopsie[1317]: [19:19:01] Sent; server replied with: SSL peer certificate or SSH remote key was not OK
+fev 23 19:19:01 LabBecoPaus whoopsie[1317]: [19:19:01] Response code: 0
+fev 23 19:19:31 LabBecoPaus sudo[1046101]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/a2dismod mpm_event
+fev 23 19:19:32 LabBecoPaus sudo[1046101]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 19:19:38 LabBecoPaus sudo[1046101]: pam_unix(sudo:session): session closed for user root
+fev 23 19:19:39 LabBecoPaus sudo[1046161]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/a2enmod mpm_prefork
+fev 23 19:19:39 LabBecoPaus sudo[1046161]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 19:19:39 LabBecoPaus sudo[1046161]: pam_unix(sudo:session): session closed for user root
+fev 23 19:20:09 LabBecoPaus sudo[1046404]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 19:20:13 LabBecoPaus sudo[1046404]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 19:20:13 LabBecoPaus sudo[1046404]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/systemctl restart apache2
+fev 23 19:20:13 LabBecoPaus sudo[1046404]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 19:20:13 LabBecoPaus systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 252796.
+fev 23 19:20:16 LabBecoPaus systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+fev 23 19:20:16 LabBecoPaus systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 252796 and the job result is done.
+fev 23 19:20:16 LabBecoPaus systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 252796.
+fev 23 19:20:16 LabBecoPaus systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 252796.
+fev 23 19:20:16 LabBecoPaus sudo[1046404]: pam_unix(sudo:session): session closed for user root
+fev 23 19:21:22 LabBecoPaus sudo[1046840]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/journalctl -xef
+fev 23 19:21:23 LabBecoPaus sudo[1046840]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 19:22:09 LabBecoPaus sudo[1046885]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 19:22:13 LabBecoPaus sudo[1046885]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 19:22:13 LabBecoPaus sudo[1046885]:  pgalvao : TTY=pts/2 ; PWD=/etc/apache2/mods-available ; USER=root ; COMMAND=/bin/systemctl restart apache2
+fev 23 19:22:13 LabBecoPaus sudo[1046885]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 19:22:13 LabBecoPaus systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 252897.
+fev 23 19:22:13 LabBecoPaus systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+fev 23 19:22:13 LabBecoPaus systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 252897 and the job result is done.
+fev 23 19:22:14 LabBecoPaus systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 252897.
+fev 23 19:22:14 LabBecoPaus systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 252897.
+fev 23 19:22:14 LabBecoPaus sudo[1046885]: pam_unix(sudo:session): session closed for user root
+fev 23 19:22:18 LabBecoPaus sudo[1046961]:  pgalvao : TTY=pts/2 ; PWD=/etc/apache2/mods-available ; USER=root ; COMMAND=/bin/systemctl restart apache2
+fev 23 19:22:18 LabBecoPaus sudo[1046961]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 19:22:18 LabBecoPaus systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 252998.
+fev 23 19:22:19 LabBecoPaus systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+fev 23 19:22:19 LabBecoPaus systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 252998 and the job result is done.
+fev 23 19:22:19 LabBecoPaus systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 252998.
+fev 23 19:22:19 LabBecoPaus systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 252998.
+fev 23 19:22:19 LabBecoPaus sudo[1046961]: pam_unix(sudo:session): session closed for user root
+fev 23 19:22:27 LabBecoPaus sudo[1047032]:  pgalvao : TTY=pts/2 ; PWD=/etc/apache2/mods-available ; USER=root ; COMMAND=/bin/systemctl status apache2
+fev 23 19:22:27 LabBecoPaus sudo[1047032]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 19:22:32 LabBecoPaus sudo[1047032]: pam_unix(sudo:session): session closed for user root
+fev 23 19:23:15 LabBecoPaus sudo[1046840]: pam_unix(sudo:session): session closed for user root
+fev 23 19:23:16 LabBecoPaus sudo[1047295]:  pgalvao : TTY=pts/8 ; PWD=/var/log/apache2 ; USER=root ; COMMAND=/bin/journalctl -xef
+fev 23 19:23:16 LabBecoPaus sudo[1047295]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 19:23:57 LabBecoPaus sudo[1047644]:  pgalvao : TTY=pts/2 ; PWD=/usr/lib/cgi-bin ; USER=root ; COMMAND=/usr/bin/vi bash-example.sh
+fev 23 19:23:57 LabBecoPaus sudo[1047644]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 19:24:02 LabBecoPaus sudo[1047644]: pam_unix(sudo:session): session closed for user root
+fev 23 19:25:01 LabBecoPaus CRON[1047794]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 19:25:01 LabBecoPaus CRON[1047795]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 19:25:02 LabBecoPaus CRON[1047794]: pam_unix(cron:session): session closed for user root
+fev 23 19:30:01 LabBecoPaus CRON[1047962]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 19:30:01 LabBecoPaus CRON[1047963]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+fev 23 19:30:01 LabBecoPaus CRON[1047962]: pam_unix(cron:session): session closed for user root
+fev 23 19:31:46 LabBecoPaus systemd[1]: Started Run anacron jobs.
+-- Subject: A start job for unit anacron.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit anacron.service has finished successfully.
+-- 
+-- The job identifier is 253099.
+fev 23 19:31:46 LabBecoPaus anacron[1048007]: Anacron 2.3 started on 2022-02-23
+fev 23 19:31:47 LabBecoPaus systemd[1]: anacron.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit anacron.service has successfully entered the 'dead' state.
+fev 23 19:31:46 LabBecoPaus anacron[1048007]: Normal exit (0 jobs run)
+fev 23 19:35:01 LabBecoPaus CRON[1048095]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 19:35:01 LabBecoPaus CRON[1048096]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 19:35:01 LabBecoPaus CRON[1048095]: pam_unix(cron:session): session closed for user root
+fev 23 19:41:39 LabBecoPaus gnome-shell[1020110]: [1020102:1020139:0223/194139.852433:ERROR:mcs_client.cc(755)] Received close command, resetting connection.
+fev 23 19:45:01 LabBecoPaus CRON[1048290]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 19:45:01 LabBecoPaus CRON[1048291]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 19:45:01 LabBecoPaus CRON[1048290]: pam_unix(cron:session): session closed for user root
+fev 23 19:48:18 LabBecoPaus smartd[1059]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 109 to 110
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4408] dhcp4 (eth2): option dhcp_lease_time      => '3600'
+fev 23 19:48:34 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=1033 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4409] dhcp4 (eth2): option domain_name          => 'home'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4410] dhcp4 (eth2): option domain_name_servers  => '213.228.128.156 213.228.128.6'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4410] dhcp4 (eth2): option expiry               => '1645649312'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4410] dhcp4 (eth2): option host_name            => 'LabBecoPaus'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4410] dhcp4 (eth2): option ip_address           => '192.168.0.12'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4410] dhcp4 (eth2): option next_server          => '192.168.0.1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4410] dhcp4 (eth2): option requested_broadcast_address => '1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4410] dhcp4 (eth2): option requested_domain_name => '1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4411] dhcp4 (eth2): option requested_domain_name_servers => '1'
+fev 23 19:48:38 LabBecoPaus /usr/lib/gdm3/gdm-x-session[2381]: (EE) client bug: timer event8 debounce: scheduled expiry is in the past (-54ms), your system is too slow
+fev 23 19:48:38 LabBecoPaus /usr/lib/gdm3/gdm-x-session[2381]: (EE) client bug: timer event8 debounce short: scheduled expiry is in the past (-160ms), your system is too slow
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4411] dhcp4 (eth2): option requested_domain_search => '1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4411] dhcp4 (eth2): option requested_host_name  => '1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4411] dhcp4 (eth2): option requested_interface_mtu => '1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4411] dhcp4 (eth2): option requested_ms_classless_static_routes => '1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4411] dhcp4 (eth2): option requested_nis_domain => '1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4411] dhcp4 (eth2): option requested_nis_servers => '1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4411] dhcp4 (eth2): option requested_ntp_servers => '1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4411] dhcp4 (eth2): option requested_rfc3442_classless_static_routes => '1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4411] dhcp4 (eth2): option requested_root_path  => '1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4411] dhcp4 (eth2): option requested_routers    => '1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4412] dhcp4 (eth2): option requested_static_routes => '1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4412] dhcp4 (eth2): option requested_subnet_mask => '1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4412] dhcp4 (eth2): option requested_time_offset => '1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4412] dhcp4 (eth2): option requested_wpad       => '1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4412] dhcp4 (eth2): option routers              => '192.168.0.1'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4412] dhcp4 (eth2): option subnet_mask          => '255.255.255.0'
+fev 23 19:48:33 LabBecoPaus NetworkManager[1033]: <info>  [1645645713.4412] dhcp4 (eth2): state changed extended -> extended
+fev 23 19:48:34 LabBecoPaus systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has begun execution.
+-- 
+-- The job identifier is 253200.
+fev 23 19:48:43 LabBecoPaus dbus-daemon[1032]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+fev 23 19:48:43 LabBecoPaus systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has finished successfully.
+-- 
+-- The job identifier is 253200.
+fev 23 19:48:51 LabBecoPaus gnome-shell[2684]: Window manager warning: last_user_time (1204261327) is greater than comparison timestamp (1204253672).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+fev 23 19:48:52 LabBecoPaus gnome-shell[2684]: Window manager warning: 0x2000020 appears to be one of the offending windows with a timestamp of 1204261327.  Working around...
+fev 23 19:48:54 LabBecoPaus systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+fev 23 19:49:08 LabBecoPaus gnome-shell[1020110]: [1020102:1020102:0223/194908.474278:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
+fev 23 19:49:09 LabBecoPaus systemd[2291]: gnome-launched-google-chrome.desktop-1020102.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+fev 23 19:55:02 LabBecoPaus CRON[1048559]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 19:55:02 LabBecoPaus CRON[1048560]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 19:55:02 LabBecoPaus CRON[1048559]: pam_unix(cron:session): session closed for user root
+fev 23 20:05:01 LabBecoPaus CRON[1048601]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 20:05:01 LabBecoPaus CRON[1048602]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 20:05:01 LabBecoPaus CRON[1048601]: pam_unix(cron:session): session closed for user root
+fev 23 20:05:07 LabBecoPaus systemd[1]: Starting Daily apt download activities...
+-- Subject: A start job for unit apt-daily.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-daily.service has begun execution.
+-- 
+-- The job identifier is 253302.
+fev 23 20:05:12 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.2553' (uid=0 pid=1049653 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+fev 23 20:05:12 LabBecoPaus systemd[1]: Starting PackageKit Daemon...
+-- Subject: A start job for unit packagekit.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has begun execution.
+-- 
+-- The job identifier is 253403.
+fev 23 20:05:12 LabBecoPaus PackageKit[1049656]: daemon start
+fev 23 20:05:13 LabBecoPaus dbus-daemon[1032]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+fev 23 20:05:13 LabBecoPaus systemd[1]: Started PackageKit Daemon.
+-- Subject: A start job for unit packagekit.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has finished successfully.
+-- 
+-- The job identifier is 253403.
+fev 23 20:05:35 LabBecoPaus systemd[1]: apt-daily.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apt-daily.service has successfully entered the 'dead' state.
+fev 23 20:05:35 LabBecoPaus systemd[1]: Finished Daily apt download activities.
+-- Subject: A start job for unit apt-daily.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-daily.service has finished successfully.
+-- 
+-- The job identifier is 253302.
+fev 23 20:06:36 LabBecoPaus pkexec[1050159]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+fev 23 20:06:36 LabBecoPaus pkexec[1050159]: pgalvao: Executing command [USER=root] [TTY=unknown] [CWD=/home/pgalvao] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+fev 23 20:10:18 LabBecoPaus PackageKit[1049656]: daemon quit
+fev 23 20:10:18 LabBecoPaus systemd[1]: packagekit.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit packagekit.service has successfully entered the 'dead' state.
+fev 23 20:15:01 LabBecoPaus CRON[1050227]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 20:15:01 LabBecoPaus CRON[1050228]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 20:15:01 LabBecoPaus CRON[1050227]: pam_unix(cron:session): session closed for user root
+fev 23 20:17:01 LabBecoPaus CRON[1050244]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 20:17:01 LabBecoPaus CRON[1050245]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+fev 23 20:17:01 LabBecoPaus CRON[1050244]: pam_unix(cron:session): session closed for user root
+fev 23 20:18:18 LabBecoPaus smartd[1059]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 110 to 111
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8122] dhcp4 (eth2): option dhcp_lease_time      => '3600'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8123] dhcp4 (eth2): option domain_name          => 'home'
+fev 23 20:18:32 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=1033 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8123] dhcp4 (eth2): option domain_name_servers  => '213.228.128.156 213.228.128.6'
+fev 23 20:18:32 LabBecoPaus dbus-daemon[1032]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8124] dhcp4 (eth2): option expiry               => '1645651112'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8124] dhcp4 (eth2): option host_name            => 'LabBecoPaus'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8124] dhcp4 (eth2): option ip_address           => '192.168.0.12'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8125] dhcp4 (eth2): option next_server          => '192.168.0.1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8125] dhcp4 (eth2): option requested_broadcast_address => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8126] dhcp4 (eth2): option requested_domain_name => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8126] dhcp4 (eth2): option requested_domain_name_servers => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8126] dhcp4 (eth2): option requested_domain_search => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8127] dhcp4 (eth2): option requested_host_name  => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8127] dhcp4 (eth2): option requested_interface_mtu => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8128] dhcp4 (eth2): option requested_ms_classless_static_routes => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8128] dhcp4 (eth2): option requested_nis_domain => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8128] dhcp4 (eth2): option requested_nis_servers => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8129] dhcp4 (eth2): option requested_ntp_servers => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8129] dhcp4 (eth2): option requested_rfc3442_classless_static_routes => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8129] dhcp4 (eth2): option requested_root_path  => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8130] dhcp4 (eth2): option requested_routers    => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8130] dhcp4 (eth2): option requested_static_routes => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8131] dhcp4 (eth2): option requested_subnet_mask => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8131] dhcp4 (eth2): option requested_time_offset => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8131] dhcp4 (eth2): option requested_wpad       => '1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8132] dhcp4 (eth2): option routers              => '192.168.0.1'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8132] dhcp4 (eth2): option subnet_mask          => '255.255.255.0'
+fev 23 20:18:32 LabBecoPaus NetworkManager[1033]: <info>  [1645647512.8132] dhcp4 (eth2): state changed extended -> extended
+fev 23 20:18:32 LabBecoPaus systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has begun execution.
+-- 
+-- The job identifier is 253505.
+fev 23 20:18:32 LabBecoPaus systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has finished successfully.
+-- 
+-- The job identifier is 253505.
+fev 23 20:18:42 LabBecoPaus systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+fev 23 20:21:33 LabBecoPaus NetworkManager[1033]: <info>  [1645647693.8163] manager: NetworkManager state is now CONNECTED_SITE
+fev 23 20:21:34 LabBecoPaus dbus-daemon[1032]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=1033 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+fev 23 20:21:34 LabBecoPaus dbus-daemon[1032]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+fev 23 20:21:34 LabBecoPaus systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has begun execution.
+-- 
+-- The job identifier is 253607.
+fev 23 20:21:34 LabBecoPaus systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit NetworkManager-dispatcher.service has finished successfully.
+-- 
+-- The job identifier is 253607.
+fev 23 20:21:34 LabBecoPaus NetworkManager[1033]: <info>  [1645647694.7582] manager: NetworkManager state is now CONNECTED_GLOBAL
+fev 23 20:21:36 LabBecoPaus whoopsie[1317]: [20:21:35] offline
+fev 23 20:21:36 LabBecoPaus whoopsie[1317]: [20:21:36] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 20:21:36 LabBecoPaus whoopsie[1317]: [20:21:36] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 20:21:36 LabBecoPaus whoopsie[1317]: [20:21:36] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+fev 23 20:21:38 LabBecoPaus whoopsie[1317]: [20:21:38] online
+fev 23 20:21:38 LabBecoPaus whoopsie[1317]: [20:21:38] Parsing /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 20:21:39 LabBecoPaus whoopsie[1317]: [20:21:39] Uploading /var/crash/_opt_google_chrome_chrome.1000.crash.
+fev 23 20:21:41 LabBecoPaus whoopsie[1317]: [20:21:41] Sent; server replied with: SSL peer certificate or SSH remote key was not OK
+fev 23 20:21:41 LabBecoPaus whoopsie[1317]: [20:21:41] Response code: 0
+fev 23 20:21:44 LabBecoPaus systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+fev 23 20:25:01 LabBecoPaus CRON[1050349]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 20:25:01 LabBecoPaus CRON[1050350]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 20:25:01 LabBecoPaus CRON[1050349]: pam_unix(cron:session): session closed for user root
+fev 23 20:30:01 LabBecoPaus CRON[1050368]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 20:30:01 LabBecoPaus CRON[1050370]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+fev 23 20:30:01 LabBecoPaus CRON[1050368]: pam_unix(cron:session): session closed for user root
+fev 23 20:31:30 LabBecoPaus sudo[1050421]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 20:31:34 LabBecoPaus sudo[1050421]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 20:31:34 LabBecoPaus sudo[1050421]: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/7 ruser=pgalvao rhost=  user=pgalvao
+fev 23 20:31:36 LabBecoPaus sudo[1050421]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 20:31:40 LabBecoPaus sudo[1050421]: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+fev 23 20:31:40 LabBecoPaus sudo[1050421]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/bin/journalctl -b 0 -xe
+fev 23 20:31:40 LabBecoPaus sudo[1050421]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 20:31:54 LabBecoPaus sudo[1050421]: pam_unix(sudo:session): session closed for user root
+fev 23 20:32:03 LabBecoPaus sudo[1047295]: pam_unix(sudo:session): session closed for user root
+fev 23 20:32:09 LabBecoPaus postfix/pickup[1050495]: error: open file /etc/mailname: No such file or directory
+fev 23 20:32:48 LabBecoPaus sudo[1050556]:  pgalvao : TTY=pts/7 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/bin/journalctl -b 0 -axe
+fev 23 20:32:48 LabBecoPaus sudo[1050556]: pam_unix(sudo:session): session opened for user root by (uid=0)
+fev 23 20:32:50 LabBecoPaus sudo[1050556]: pam_unix(sudo:session): session closed for user root
+fev 23 20:32:52 LabBecoPaus systemd[1]: Started Run anacron jobs.
+-- Subject: A start job for unit anacron.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit anacron.service has finished successfully.
+-- 
+-- The job identifier is 253709.
+fev 23 20:32:52 LabBecoPaus anacron[1050593]: Anacron 2.3 started on 2022-02-23
+fev 23 20:32:52 LabBecoPaus anacron[1050593]: Normal exit (0 jobs run)
+fev 23 20:32:52 LabBecoPaus systemd[1]: anacron.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit anacron.service has successfully entered the 'dead' state.
+fev 23 20:35:01 LabBecoPaus CRON[1051226]: pam_unix(cron:session): session opened for user root by (uid=0)
+fev 23 20:35:01 LabBecoPaus CRON[1051229]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+fev 23 20:35:01 LabBecoPaus CRON[1051226]: pam_unix(cron:session): session closed for user root
+fev 23 20:35:28 LabBecoPaus sudo[1051328]:  pgalvao : TTY=pts/7 ; PWD=/home/pgalvao/Development/applications/log_parser/logfiles ; USER=root ; COMMAND=/bin/journalctl -b 0 -axe
