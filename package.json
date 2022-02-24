@@ -1,11 +1,11 @@
 {
   "name": "log_parser",
-  "version": "0.5.0",
+  "version": "1.0.1",
   "description": "Commnad Line Log Parser",
   "main": "app/log_parser.js",
   "scripts": {
     "build": "pkg -c package.json -o build/log_parser -t node17-linux app/log_parser.js"
   },
   "author": "Pedro Galvão",
-  "license": "ISC"
+  "license": "MIT"
 }
