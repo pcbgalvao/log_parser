@@ -47,4 +47,8 @@ https://github.com/vercel/pkg
 
 [x] Implement a asynchronous line by line read file operation;
 [] Write some jasmine tests
+[] Log files are not being tested for read access permisssions
+[] There is a even more performant possibility,better than "readLine", here:
+    https://nodejs.org/dist/latest/docs/api/readline.html
+    Example: Read file stream line-by-Line
 [x] Uplaod to github
