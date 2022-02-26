@@ -8,11 +8,43 @@ function syntaxHelp(msg) {
 
 }
 
+// Special Char to be Sanitized
+// 
+// Brackets: []
+// Parentheses: ()
+// Curly braces: {}
+// Operators: *, +, ?, |
+// Anchors: ^, $
+// Others: ., \
+
+// [ \ ^ $ . | ? * + ( )
+
+function escapeSpecialChar(stringToParse) {
+    let sanitazedTempString = "";
+    for (idx = 0; idx < stringToParse.length; idx++) {
+        let c = stringToParse[idx];
+        if (["\[", "\(", "\)", 
+            "\*", "\+", "\?", "\|", "\^", "\$",
+            "\.", "\,"].includes(c)) {
+            c = '\\'+c;
+            console.log("voila, voila", c);
+        }
+        sanitazedTempString+=c;        
+        //console.log ("char-", c);
+        //console.log ("char-", idx);
+        //console.log ("char-", stringToParse.length);
+
+    }
+    console.log("sanitazedTempString", sanitazedTempString);
+    return sanitazedTempString
+}
+
 // Parses data with given string
 function parseData(data, stringToParse) {
 
     let resultMatch;
-    let regex = new RegExp(`${stringToParse}`, '\g');
+    let sanitazedString = escapeSpecialChar(stringToParse)
+    let regex = new RegExp(`${sanitazedString}`, '\g');
 
     resultMatch = (data.match(regex) || []);
     return (resultMatch.length);

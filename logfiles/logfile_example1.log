@@ -7,3 +7,10 @@
 4324523bfbfn
 klpjpojpo1234423lo
 -------123-----
+Brackets: []
+Parentheses: ()
+Curly braces: {}
+Operators: *, +, ?, |
+Anchors: ^, $
+Others: ., \
+[ \ ^ $ . | ? * + ( )
