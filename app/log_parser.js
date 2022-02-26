@@ -8,50 +8,36 @@ function syntaxHelp(msg) {
 
 }
 
-// Special Char to be Sanitized
-// 
-// Brackets: []
-// Parentheses: ()
-// Curly braces: {}
-// Operators: *, +, ?, |
-// Anchors: ^, $
-// Others: ., \
-
-// [ \ ^ $ . | ? * + ( )
-
-function escapeSpecialChar(stringToParse) {
-    let sanitazedTempString = "";
-    for (idx = 0; idx < stringToParse.length; idx++) {
-        let c = stringToParse[idx];
+// escapes special characters
+//
+function satinazeString(stringToSanitaze) {
+    let tempSanitazedString = "";
+    for (idx = 0; idx < stringToSanitaze.length; idx++) {
+        let c = stringToSanitaze[idx];
         if (["\[", "\(", "\)", 
             "\*", "\+", "\?", "\|", "\^", "\$",
             "\.", "\,"].includes(c)) {
             c = '\\'+c;
-            console.log("voila, voila", c);
+            
         }
-        sanitazedTempString+=c;        
-        //console.log ("char-", c);
-        //console.log ("char-", idx);
-        //console.log ("char-", stringToParse.length);
-
+        tempSanitazedString+=c;        
     }
-    console.log("sanitazedTempString", sanitazedTempString);
-    return sanitazedTempString
+    return tempSanitazedString
 }
 
 // Parses data with given string
+//
 function parseData(data, stringToParse) {
 
     let resultMatch;
-    let sanitazedString = escapeSpecialChar(stringToParse)
+    let sanitazedString = satinazeString(stringToParse)
     let regex = new RegExp(`${sanitazedString}`, '\g');
 
     resultMatch = (data.match(regex) || []);
     return (resultMatch.length);
-
 }
 
-
+//Main 
 function main(argv) {
 
     // Taking string to parse and log file from command line args    
@@ -66,14 +52,15 @@ function main(argv) {
     }
 
     // test for correct number of args
+    //
     if (argv.length !== 4) {
         console.log("Warning: please check the syntax");
         syntaxHelp();
         process.exit(1);
     }
 
-    // tests for the existence of "logfile" provided
-
+    // tests for the existence of log file provided
+    //
     if (!Fs.existsSync(logFile)) {
         console.log(`Error: File "${logFile}" not found!`)
         process.exit(1);
@@ -87,6 +74,10 @@ function main(argv) {
         terminal: false
     }
     let rl = readLine.createInterface(logFileInterface);
+
+
+    // "readLine" Events
+    //
 
     // processes "Line" event on logfile ReadStream Interfrace
     let matchesFound = 0;
@@ -115,7 +106,3 @@ function main(argv) {
 
 main(process.argv);
 
-
-//module.exports(
-//     ()=>main()
-//);
